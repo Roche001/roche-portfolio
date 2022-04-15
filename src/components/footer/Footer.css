@@ -1,0 +1,27 @@
+.footer {
+  background-color: #00ffff;
+  color: #020c1b;
+}
+.social {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.social a {
+  color: #020c1b;
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin: 0.8rem;
+  transition: (0.5s);
+}
+.social a :hover {
+  background: transparent;
+  color: #5d07e9;
+  cursor: default;
+  transition: trasition;
+}
+.copy {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

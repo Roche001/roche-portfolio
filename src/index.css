@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Asap:wght@400;600;700&family=Dancing+Script:wght@600&family=Lobster&family=Trocchi&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+:root {
+  --transition: all 250ms ease;
+  --container-width-jf: 75%;
+  --container-width-rh: 86%;
+  --container-width-sn: 98%;
+}
+body {
+  background-color: #020c1b;
+  color: #d6f5fa;
+  font-family: "Asap", sans-serif;
+  line-height: 1.7;
+  flex-wrap: wrap;
+}
+.container {
+  width: var(--container-width-jf);
+}
+h1 h2 h3 h4 {
+  font-weight: 400;
+}
+/* h4 {
+  color: #00ffff;
+} */
+h1 {
+  font-size: 2.5rem;
+}
+section {
+  margin-top: 8rem;
+}
+section > h2 section > h5 {
+  text-align: center;
+}
+section > h2 {
+  margin-bottom: 3rem;
+}
+a {
+  color: #00ffff;
+  transition: var(--transition);
+}
+a:hover {
+  color: #fff;
+}
+.btn {
+  width: max-content;
+  display: inline-block;
+  color: #d6f5fa;
+  padding: 0.75rem 1rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  border: 1px solid #00ffff;
+  transition: var(--transition);
+}
+.btn:hover {
+  background-color: rgb(58, 86, 87);
+}
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+@media screen and (max-width: 1024px) {
+  .container {
+    width: var(--container-width-rh);
+  }
+  section {
+    margin-top: 6rem;
+    height: 100vh;
+  }
+}
+@media screen and (max-width: 600px) {
+  .container {
+    width: var(--container-width-sn);
+  }
+  section h2 {
+    margin-bottom: 3rem;
+  }
+}

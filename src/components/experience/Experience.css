@@ -1,0 +1,57 @@
+.experience {
+  display: grid;
+  grid-template-columns: 1 fr 1fr;
+}
+.skills {
+  background: #0ffff7;
+  padding: 2.4rem 5rem;
+  width: 20rem;
+  color: #020c1b;
+  border-radius: 2rem;
+  border: 2px solid transparent;
+  text-align: center;
+  margin-left: 30rem;
+}
+.skills:hover {
+  background: transparent;
+  border-color: rgba(241, 241, 241, 0.822);
+  color: #d6f5fa;
+  cursor: default;
+  border-color: #5d07e9;
+}
+.experience-info {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.experience h3 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.experience h4 {
+  margin-left: 6px;
+}
+.text-a {
+  text-align: center;
+}
+@media screen and (max-width: 1024px) {
+  h2 {
+    margin-top: 4rem;
+  }
+  .skills {
+    width: 20rem;
+    margin: 30px;
+    margin-top: 4rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  h2 {
+    margin-top: 10rem;
+  }
+  .skills {
+    width: 20rem;
+    margin: 30px;
+    margin-top: 4rem;
+  }
+}

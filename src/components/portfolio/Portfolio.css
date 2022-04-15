@@ -1,0 +1,48 @@
+.porfolio {
+  display: grid;
+  grid-template-columns: (1fr 1fr);
+  margin-left: 30rem;
+  gap: 2.5rem;
+  width: 18rem;
+  height: 75%;
+}
+
+.folio-items {
+  background-color: #00ffff;
+  border-radius: 2rem;
+  color: #020c1b;
+  transition: var(--transition);
+  overflow: hidden;
+}
+.folio-items:hover {
+  background: transparent;
+  color: #d6f5fa;
+  cursor: default;
+  border: #5d07e9 3px solid;
+  transition: transition;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5;
+}
+.icons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+}
+.icons a {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  border: #020c1b;
+}
+.btn-a {
+  color: #020c1b;
+  border-radius: 0.5rem;
+  width: max-content;
+  display: inline-block;
+  padding: 0.75rem 1rem;
+  cursor: pointer;
+}

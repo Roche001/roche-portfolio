@@ -1,0 +1,36 @@
+header {
+  height: 100vh;
+  padding-top: 5rem;
+  overflow: hidden;
+}
+.header_container {
+  text-align: center;
+  height: 100%;
+  position: relative;
+}
+.main img {
+  max-width: 100%;
+}
+.main {
+  background-image: linear-gradient(to bottom, rgba(37, 34, 34, 0.5), #020c1b),
+    url("../../assets/Roche.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
+}
+
+.jr {
+  margin-top: 2.5rem;
+}
+
+.bottom {
+  position: absolute;
+  right: 0.5rem;
+  bottom: 5rem;
+  transform: rotateZ(90deg);
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+@media screen and (max-width: 1024px) {
+}

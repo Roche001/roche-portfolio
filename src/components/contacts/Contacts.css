@@ -1,0 +1,88 @@
+.container {
+  width: 60%;
+  display: grid;
+  grid-template-columns: 30% 60%;
+  gap: 12rem;
+  margin-left: 100px;
+}
+.contact-options {
+  display: flex;
+  flex-direction: column;
+  color: #020c1b;
+  text-decoration: none;
+  gap: 1.2rem;
+}
+.contact-option a {
+  text-decoration: none;
+  margin-top: 0.7rem;
+  display: inline-block;
+  font-size: 0.9rem;
+}
+.contact-option {
+  background-color: #0ffff7;
+  border-radius: 1.2rem;
+  text-align: center;
+  border: 1px solid transparent;
+  overflow: hidden;
+  transition: var(--transition);
+}
+.contact-option a {
+  color: #5d07e9;
+  margin-bottom: 1rem;
+}
+
+.contact-option:hover {
+  background: transparent;
+  border: #5d07e9 3px solid;
+  color: #d6f5fa;
+  transition: transition;
+}
+.contact-option i {
+  font-size: 2rem;
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+}
+form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin-right: 8rem;
+}
+.btn {
+  position: relative;
+  width: 12rem;
+  height: 3rem;
+  background: transparent;
+  color: #d6f5fa;
+  border-color: #00ffff;
+  margin-top: 20px;
+  cursor: pointer;
+}
+input,
+textarea {
+  width: 100%;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid;
+}
+@media screen and (max-width: 1024px) {
+  .container {
+    width: 50%;
+  }
+  form {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .container {
+    width: 25%;
+  }
+  form {
+    width: 25%;
+    margin-top: 50rem;
+    margin-left: 10rem;
+  }
+}

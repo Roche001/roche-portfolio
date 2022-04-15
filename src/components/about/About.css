@@ -1,0 +1,98 @@
+.about {
+  display: grid;
+  grid-template-columns: 35% 50%;
+}
+h2 {
+  text-align: center;
+}
+
+.imgBx {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(25deg, transparent #00ffff);
+  display: grid;
+  margin-top: -4rem;
+}
+.imgBx img {
+  border-radius: 2rem;
+  width: 18rem;
+  border: solid;
+  border-color: #0ffff7 solid;
+  overflow: hidden;
+  margin-left: 100px;
+  object-fit: cover;
+  margin-top: 4rem;
+  transform: rotate(10deg);
+  transition: var(--transition);
+}
+.imgBx img:hover {
+  z-index: 1;
+
+  color: #5d07e9;
+  transform: scale(1.25);
+  box-shadow: 0 25px 40px rgb(58, 86, 87);
+  transform: rotate(10);
+}
+.text {
+  display: grid;
+  grid-template-columns: repeat(1fr, 1fr);
+}
+.article-a {
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  text-align: center;
+  margin-top: -2rem;
+  width: 10rem;
+  height: 6rem;
+  color: #020c1b;
+  background-color: #0ffff7;
+  overflow: hidden;
+  font-size: 16px;
+}
+
+.article-a small {
+  font-weight: 700;
+}
+.article-a:hover {
+  background: transparent;
+  border: #5d07e9 3px solid;
+  color: #d6f5fa;
+}
+
+.icon {
+  font-size: 0.95rem;
+  margin-top: 0.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.decription p {
+  margin-top: 2rem;
+}
+.decription a {
+  margin-top: 1rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .about {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    width: 50%;
+    margin: 2rem auto 4rem;
+  }
+  .decription p {
+    margin-top: 3rem;
+    width: 200px;
+  }
+  .imgBx img {
+    width: 75%;
+    margin-left: 2rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  about {
+    width: 65%;
+    margin: 0 auto 3rem;
+    grid-template-columns: 1fr 1fr;
+    gap: rem;
+  }
+}
