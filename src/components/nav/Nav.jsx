@@ -10,24 +10,37 @@ function Nav() {
     <nav>
       <a href="#">
         {" "}
-        <AiFillHome />
+        <h4>
+          <AiFillHome />
+        </h4>
         <h5 className="tooltip">Home</h5>
       </a>
       <a href="#About">
+        <h4>
+          <AiOutlineUser />
+        </h4>
         <h5 className="tooltip">About</h5>
-        <AiOutlineUser />
       </a>
       <a href="#Experience">
         {" "}
-        <BsBookmarksFill />
+        <h4>
+          <BsBookmarksFill />
+        </h4>
         <h5 className="tooltip">Experience</h5>
       </a>
       <a href="#Portfolio">
-        {" "}
-        <GoFileSubmodule /> <h5 className="tooltip"> Portfolio</h5>
+        <h4>
+          {" "}
+          <GoFileSubmodule />{" "}
+        </h4>
+        <h5 className="tooltip"> Portfolio</h5>
       </a>
       <a href="#Contacts">
-        <AiFillContacts /> <h5 className="tooltip">Contacts</h5>
+        <h4>
+          {" "}
+          <AiFillContacts />
+        </h4>
+        <h5 className="tooltip">Contacts</h5>
       </a>
     </nav>
   );
