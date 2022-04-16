@@ -26,6 +26,21 @@ nav a:hover {
 }
 .tooltip {
   position: absolute;
-  left: 50%;
-  top: 0;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  padding: 10px 15px;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+.tooltip::before {
+  content: "";
+  position: absolute;
+  transform: translateX(-50%);
+  border-color: #00ffff #00ffff #00ffff #00ffff;
+}
+.nav a:hover .tooltip {
+  top: 130%;
+  visibility: visible;
+  opacity: 1;
 }
