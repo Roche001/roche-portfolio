@@ -22,6 +22,7 @@ nav a {
   align-items: center;
 }
 nav a:hover {
-  background: #00ffff;
+  /* background: #00ffff; */
+  color: #020c1b;
   transition: 0.7s;
 }
