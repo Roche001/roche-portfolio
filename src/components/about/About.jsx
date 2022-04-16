@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import Roche2 from "../../assets/Roche2.png";
+
 import { BsFillFolderSymlinkFill } from "react-icons/bs";
 import { BsArrowRight } from "react-icons/bs";
 

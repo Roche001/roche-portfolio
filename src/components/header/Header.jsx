@@ -1,8 +1,6 @@
 import React from "react";
 import "./Header.css";
 import Jr from "./Jr";
-import Roche from "../../assets/Roche.jpg";
-import { IoIosArrowUp } from "react-icons/io";
 
 const Header = () => {
   return (

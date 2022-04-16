@@ -1,6 +1,6 @@
 import React from "react";
 import "./Portfolio.css";
-import Restaurant1 from "../../assets/Restaurant1.png";
+
 function portfolio() {
   return (
     <section id="Portfolio">
@@ -8,7 +8,7 @@ function portfolio() {
       <div className="porfolio">
         <article className="folio-items">
           <div className="portfolio-image">
-            <img src="Restaurant1.png" alt="Kagan.com Photo" />
+            <img src="Restaurant1.png" alt="kagan" />
           </div>
           <div className="title">Restaurant Website</div>
           <div className="icons">
