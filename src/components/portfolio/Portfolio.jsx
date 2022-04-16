@@ -8,7 +8,7 @@ function portfolio() {
       <div className="porfolio">
         <article className="folio-items">
           <div className="portfolio-image">
-            <img src="Restaurant1.png" alt="Kagan.com Photo" />
+            <img src="Restaurant.png" alt="Kagan.com Photo" />
           </div>
           <div className="title">Restaurant Website</div>
           <div className="icons">
