@@ -32,9 +32,9 @@ function portfolio() {
         </article>
         <article className="folio-items">
           <div className="portfolio-image">
-            <img src="Restaurant1.png" alt="kagan" />
+            <img src="Real.png" alt="kagan" />
           </div>
-          <div className="title">Restaurant Website</div>
+          <div className="title">Real-Estate Website</div>
           <div className="icons">
             <a
               href="https://github.com/Roche001"
