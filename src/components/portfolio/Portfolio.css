@@ -3,8 +3,8 @@
   grid-template-columns: (1fr 1fr 1fr);
   margin-left: 30rem;
   gap: 2.5rem;
-  width: 18rem;
-  height: 75%;
+  width: 15rem;
+  height: 25%;
 }
 
 .folio-items {
