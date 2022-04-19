@@ -18,8 +18,10 @@
   color: #020c1b;
   width: 15rem;
   height: 28rem;
+  border: #00ffff 2px solid;
   transition: var(--transition);
   overflow: hidden;
+  cursor: pointer;
 }
 .folio-items:hover {
   background: transparent;
