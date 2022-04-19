@@ -37,7 +37,7 @@ function portfolio() {
           <div className="title">Real-Estate Website</div>
           <div className="icons">
             <a
-              href="https://github.com/Roche001"
+              href="https://github.com/Roche001/Real-Estate-website"
               className="btn-a"
               target="blank"
             >
