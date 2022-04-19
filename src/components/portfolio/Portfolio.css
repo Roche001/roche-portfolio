@@ -1,16 +1,19 @@
 .porfolio {
+  position: relative;
+  align-items: center;
   display: grid;
-  grid-template-columns: ;
-  margin-left: 30rem;
-  gap: 2.5rem;
+  grid-template-columns: 1fr 1fr;
   width: 15rem;
-  height: 25%;
+  gap: 2rem;
+  margin-left: 25rem;
 }
 
 .folio-items {
   background-color: #00ffff;
   border-radius: 2rem;
   color: #020c1b;
+  width: 15rem;
+  height: 30rem;
   transition: var(--transition);
   overflow: hidden;
 }
