@@ -7,13 +7,17 @@
   gap: 2rem;
   margin-left: 25rem;
 }
+.portfolio-image img {
+  height: 20rem;
+  width: 15rem;
+}
 
 .folio-items {
   background-color: #00ffff;
   border-radius: 2rem;
   color: #020c1b;
   width: 15rem;
-  height: 30rem;
+  height: 28rem;
   transition: var(--transition);
   overflow: hidden;
 }
