@@ -12,10 +12,12 @@ h2 {
   background: linear-gradient(25deg, transparent #00ffff);
   display: grid;
   margin-top: -4rem;
+  border: #00ffff;
 }
 .imgBx img {
   border-radius: 2rem;
   width: 18rem;
+  height: 20rem;
   border: solid;
   border-color: #0ffff7 solid;
   overflow: hidden;
@@ -27,7 +29,6 @@ h2 {
 }
 .imgBx img:hover {
   z-index: 1;
-
   color: #5d07e9;
   transform: scale(1.25);
   box-shadow: 0 25px 40px rgb(58, 86, 87);
