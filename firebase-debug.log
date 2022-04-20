@@ -74,3 +74,34 @@ You're about to initialize a Firebase project in this directory:
 [debug] [2022-04-20T07:32:54.075Z] >>> [apiv2][query] GET https://api.github.com/repos/Roche001/ React-Portfolio-Website/actions/secrets/public-key type=owner
 [debug] [2022-04-20T07:32:55.364Z] <<< [apiv2][status] GET https://api.github.com/repos/Roche001/ React-Portfolio-Website/actions/secrets/public-key 404
 [debug] [2022-04-20T07:32:55.364Z] <<< [apiv2][body] GET https://api.github.com/repos/Roche001/ React-Portfolio-Website/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2022-04-20T07:37:13.968Z] >>> [apiv2][query] GET https://api.github.com/repos/(Roche001/ React-Portfolio-Website/actions/secrets/public-key type=owner
+[debug] [2022-04-20T07:37:15.329Z] <<< [apiv2][status] GET https://api.github.com/repos/(Roche001/ React-Portfolio-Website/actions/secrets/public-key 404
+[debug] [2022-04-20T07:37:15.330Z] <<< [apiv2][body] GET https://api.github.com/repos/(Roche001/ React-Portfolio-Website/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2022-04-20T07:37:19.316Z] >>> [apiv2][query] GET https://api.github.com/repos/(Roche001/ React-Portfolio-Website)/actions/secrets/public-key type=owner
+[debug] [2022-04-20T07:37:20.548Z] <<< [apiv2][status] GET https://api.github.com/repos/(Roche001/ React-Portfolio-Website)/actions/secrets/public-key 404
+[debug] [2022-04-20T07:37:20.548Z] <<< [apiv2][body] GET https://api.github.com/repos/(Roche001/ React-Portfolio-Website)/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2022-04-20T07:40:13.838Z] >>> [apiv2][query] GET https://api.github.com/repos/(Roche001/ React-Portfolio-Website)  /actions/secrets/public-key type=owner
+[debug] [2022-04-20T07:40:14.603Z] >>> [apiv2][query] GET https://api.github.com/repos/(Roche001/ React-Portfolio-Website)  /actions/secrets/public-key type=owner
+[debug] [2022-04-20T07:40:16.965Z] >>> [apiv2][query] GET https://api.github.com/repos/(Roche001/ React-Portfolio-Website)/actions/secrets/public-key type=owner
+[debug] [2022-04-20T07:40:17.552Z] >>> [apiv2][query] GET https://api.github.com/repos/(Roche001/ React-Portfolio-Website)/actions/secrets/public-key type=owner
+[debug] [2022-04-20T07:51:20.494Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-04-20T07:51:21.187Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-04-20T07:51:21.966Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-04-20T07:51:22.030Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-04-20T07:51:22.030Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-04-20T07:51:22.575Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-04-20T07:51:22.575Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-04-20T07:51:22.879Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-04-20T07:51:23.392Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-04-20T07:51:23.393Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-04-20T07:51:24.404Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-04-20T07:51:24.404Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-04-20T07:52:59.051Z] >>> [apiv2][query] GET https://api.github.com/repos/.github/workflows/actions/secrets/public-key type=owner
+[debug] [2022-04-20T07:53:00.411Z] <<< [apiv2][status] GET https://api.github.com/repos/.github/workflows/actions/secrets/public-key 404
+[debug] [2022-04-20T07:53:00.411Z] <<< [apiv2][body] GET https://api.github.com/repos/.github/workflows/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2022-04-20T07:53:36.596Z] >>> [apiv2][query] GET https://api.github.com/repos/.Roche001/ React-Portfolio-Website/actions/secrets/public-key type=owner
+[debug] [2022-04-20T07:53:38.044Z] <<< [apiv2][status] GET https://api.github.com/repos/.Roche001/ React-Portfolio-Website/actions/secrets/public-key 404
+[debug] [2022-04-20T07:53:38.044Z] <<< [apiv2][body] GET https://api.github.com/repos/.Roche001/ React-Portfolio-Website/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2022-04-20T07:53:39.429Z] >>> [apiv2][query] GET https://api.github.com/repos/.Roche001/ React-Portfolio-Website/actions/secrets/public-key type=owner
+[debug] [2022-04-20T07:53:40.924Z] <<< [apiv2][status] GET https://api.github.com/repos/.Roche001/ React-Portfolio-Website/actions/secrets/public-key 404
+[debug] [2022-04-20T07:53:40.924Z] <<< [apiv2][body] GET https://api.github.com/repos/.Roche001/ React-Portfolio-Website/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
