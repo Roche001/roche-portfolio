@@ -1,11 +1,18 @@
+#Portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .porfolio {
   position: relative;
   align-items: center;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
   width: 15rem;
   gap: 2rem;
-  margin-left: 25rem;
 }
 .portfolio-image img {
   height: 20rem;
