@@ -1,10 +1,10 @@
-.experience {
-  display: grid;
-  grid-template-columns: 1 fr 1fr;
-}
 .skills {
   background: #0ffff7;
   padding: 2.4rem 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 20rem;
   color: #020c1b;
   border-radius: 2rem;
