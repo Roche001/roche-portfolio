@@ -37,7 +37,7 @@ function portfolio() {
           <div className="title">Real-Estate Website</div>
           <div className="icons">
             <a
-              href="https://github.com/Roche001/Real-Estate-website"
+              href="https://github.com/Roche001/Real-Estate-website.git"
               className="btn-a"
               target="blank"
             >
@@ -45,7 +45,7 @@ function portfolio() {
               <button className="btn-a">Github</button>
             </a>
             <a
-              href="file:///home/roche/Desktop/Coding/First%20Project/index.html#"
+              href="https://real-estate-610fa.firebaseapp.com/"
               className="btn-a"
               target="blank"
             >
