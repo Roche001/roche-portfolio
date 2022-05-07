@@ -21,7 +21,7 @@ function portfolio() {
               <button className="btn-a">Github</button>
             </a>
             <a
-              href=" web-project-34f5b.firebaseapp.com"
+              href="https://web-project-34f5b.web.app/"
               className="btn-a"
               target="blank"
             >
