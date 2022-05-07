@@ -18,7 +18,7 @@ const About = () => {
           <article className="article-a">
             <BsFillFolderSymlinkFill className="icon" />
             <h4>Projects</h4>
-            <small>5+ Major Projects</small>
+            <small>5+ Projects</small>
           </article>
           <div className="decription">
             <p>
