@@ -29,6 +29,7 @@
   transition: var(--transition);
   overflow: hidden;
   cursor: pointer;
+  cursor: pointer;
 }
 .folio-items:hover {
   background: transparent;

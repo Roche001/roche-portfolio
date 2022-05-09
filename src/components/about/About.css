@@ -13,6 +13,7 @@ h2 {
   display: grid;
   margin-top: -4rem;
   border: #00ffff;
+  cursor: pointer;
 }
 .imgBx img {
   border-radius: 2rem;
@@ -49,6 +50,7 @@ h2 {
   background-color: #0ffff7;
   overflow: hidden;
   font-size: 16px;
+  cursor: pointer;
 }
 
 .article-a small {
