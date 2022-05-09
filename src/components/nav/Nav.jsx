@@ -8,7 +8,7 @@ import { AiFillContacts } from "react-icons/ai";
 function Nav() {
   return (
     <nav>
-      <a href="#">
+      <a href="#h">
         {" "}
         <h4>
           <AiFillHome />
