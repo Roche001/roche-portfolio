@@ -8,7 +8,7 @@ function portfolio() {
       <div className="porfolio">
         <article className="folio-items">
           <div className="portfolio-image">
-            <img src="Restaurant1.png" alt="kagan" />
+            <img src="./assets/Restaurant1.png" alt="kagan" />
           </div>
           <div className="title">Restaurant Website</div>
           <div className="icons">
@@ -32,7 +32,7 @@ function portfolio() {
         </article>
         <article className="folio-items">
           <div className="portfolio-image">
-            <img src="Real.png" alt="kagan" />
+            <img src="./assets/Real.png" alt="kagan" />
           </div>
           <div className="title">Real-Estate Website</div>
           <div className="icons">
