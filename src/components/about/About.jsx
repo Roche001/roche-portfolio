@@ -32,10 +32,10 @@ const About = () => {
               <br></br>
               loading issues between pages or error messages.<br></br>
             </p>
-            <a href="#Portfolio" className="btn">
-              View My Projects <BsArrowRight />
-            </a>
           </div>
+          <a href="#Portfolio" className="btn">
+            View My Projects <BsArrowRight />
+          </a>
         </div>
       </div>
     </section>
