@@ -86,7 +86,7 @@ img {
   .container {
     width: var(--container-width-sn);
   }
-  section h2 {
-    margin-bottom: 3rem;
+  section {
+    margin-top: 6rem;
   }
 }
