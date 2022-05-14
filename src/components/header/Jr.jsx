@@ -8,7 +8,7 @@ function Jr() {
         Contact Me
       </a>
       <a
-        href="https://drive.google.com/drive/u/1/my-drive"
+        href="https://drive.google.com/file/d/1xYZ3JJRXzctD6qj4_DhAFlLPXig5_2sJ/view"
         download
         target="_blank"
         rel="noopener noreferrer"
