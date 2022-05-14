@@ -10,6 +10,8 @@ function Jr() {
       <a
         href="https://drive.google.com/drive/u/1/my-drive"
         download
+        target="_blank"
+        rel="noopener noreferrer"
         className="btn"
       >
         Download CV
