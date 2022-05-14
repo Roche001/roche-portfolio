@@ -6,6 +6,9 @@ function Jr() {
       <a href="#Contacts" className="btn">
         Contact Me
       </a>
+      <a href="#Contacts" className="btn">
+        Download CV
+      </a>
     </div>
   );
 }
