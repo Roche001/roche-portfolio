@@ -1,4 +1,5 @@
 import React from "react";
+import CV from "./assets/CV.pdf";
 
 function Jr() {
   return (
@@ -6,7 +7,7 @@ function Jr() {
       <a href="#Contacts" className="btn">
         Contact Me
       </a>
-      <a href="#Contacts" className="btn">
+      <a href={CV} download className="btn">
         Download CV
       </a>
     </div>
