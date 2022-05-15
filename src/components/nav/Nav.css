@@ -1,3 +1,9 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 nav {
   position: fixed;
   top: 0;
@@ -6,12 +12,13 @@ nav {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   box-shadow: 0.75em 0.75em 1em rgba(207, 202, 202, 0.1);
   opacity: 0.6;
   background: #020c1b;
   border-radius: 0.5rem;
   margin: 2rem;
+  margin-right: 40rem;
 }
 nav a {
   background: transparent;
