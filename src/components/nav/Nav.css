@@ -40,3 +40,8 @@ nav a:hover {
     margin-right: 40rem;
   }
 }
+@media screen and (max-width: 600px) {
+  nav {
+    margin-right: 2rem;
+  }
+}
