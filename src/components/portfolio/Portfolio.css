@@ -65,5 +65,6 @@
 }
 @media screen and (max-width: 600px) {
   #Portfolio {
+    margin-top: -40rem;
   }
 }
