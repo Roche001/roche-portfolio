@@ -92,7 +92,7 @@ h2 {
     width: 200px;
   }
   .imgBx img {
-    width: 75%;
+    width: 14rem;
     margin-left: 2rem;
   }
 }
@@ -102,5 +102,9 @@ h2 {
     margin: 0 auto 3rem;
     grid-template-columns: 1fr 1fr;
     gap: rem;
+  }
+  .imgBx img {
+    width: 14rem;
+    margin-left: -2rem;
   }
 }

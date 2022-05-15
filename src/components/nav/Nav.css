@@ -35,3 +35,8 @@ nav a:hover {
   color: #020c1b;
   transition: 0.7s;
 }
+@media screen and (max-width: 1024px) {
+  nav {
+    margin-right: 40rem;
+  }
+}
