@@ -44,5 +44,6 @@ nav a:hover {
 @media screen and (max-width: 600px) {
   nav {
     margin-right: 10rem;
+    position: fixed;
   }
 }
