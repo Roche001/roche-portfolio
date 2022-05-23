@@ -97,7 +97,7 @@ h2 {
   }
 }
 @media screen and (max-width: 600px) {
-  about {
+  .about {
     width: 65%;
     margin: 0 auto 3rem;
     grid-template-columns: 1fr 1fr;
