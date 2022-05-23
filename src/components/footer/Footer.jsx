@@ -10,7 +10,7 @@ function Footer() {
       <div className="footer">
         <div className="social">
           <a
-            href="https://www.instagram.com/"
+            href="https://www.instagram.com/roche_harold/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -24,7 +24,7 @@ function Footer() {
             <RiFacebookCircleFill />
           </a>
           <a
-            href="https://twitter.com/"
+            href="https://twitter.com/RocheHarold2"
             target="_blank"
             rel="noopener noreferrer"
           >
