@@ -78,7 +78,7 @@ textarea {
 }
 @media screen and (max-width: 600px) {
   #Contacts {
-    margin-top: -45rem;
+    margin-top: -35rem;
   }
   .container {
     display: flex;
