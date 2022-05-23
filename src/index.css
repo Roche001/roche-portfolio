@@ -46,6 +46,7 @@ section > h2 section > h5 {
 section > h2 {
   margin-bottom: 3rem;
 }
+
 a {
   color: #00ffff;
   transition: var(--transition);
