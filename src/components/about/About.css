@@ -57,7 +57,9 @@ h2 {
   font-size: 16px;
   cursor: pointer;
 }
-
+section {
+  margin-top: 4rem;
+}
 .article-a small {
   font-weight: 700;
 }
