@@ -27,6 +27,9 @@ body {
   line-height: 1.7;
   flex-wrap: wrap;
 }
+section {
+  margin-top: 8rem;
+}
 .container {
   width: var(--container-width-jf);
 }
