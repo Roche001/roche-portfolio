@@ -12,14 +12,13 @@
   font-size: 1.2rem;
   font-weight: 400;
   margin: 0.8rem;
-  transition: (0.5s);
+  transition: 400ms;
 }
 .social a :hover {
-  background: transparent;
   color: #5d07e9;
-  cursor: default;
-  transition: trasition;
+  cursor: pointer;
 }
+
 .copy {
   display: flex;
   flex-wrap: wrap;
