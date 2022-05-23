@@ -25,9 +25,3 @@
   flex-wrap: wrap;
   justify-content: center;
 }
-@media screen and (max-width: 600px) {
-  #Footer {
-    margin-top: -10rem;
-    margin-bottom: 70rem;
-  }
-}

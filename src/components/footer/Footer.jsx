@@ -6,7 +6,7 @@ import { AiFillTwitterCircle } from "react-icons/ai";
 import { AiOutlineCopyrightCircle } from "react-icons/ai";
 function Footer() {
   return (
-    <div id="Footer">
+    <section id="Footer">
       <div className="footer">
         <div className="social">
           <a
@@ -39,7 +39,7 @@ function Footer() {
           </small>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 
