@@ -4,6 +4,7 @@ import { AiOutlineInstagram } from "react-icons/ai";
 import { RiFacebookCircleFill } from "react-icons/ri";
 import { AiFillTwitterCircle } from "react-icons/ai";
 import { AiOutlineCopyrightCircle } from "react-icons/ai";
+import { BsLinkedin } from "react-icons/bs";
 function Footer() {
   return (
     <section id="Footer">
@@ -29,6 +30,13 @@ function Footer() {
             rel="noopener noreferrer"
           >
             <AiFillTwitterCircle />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/roche-harold-3b3aba141/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <BsLinkedin />
           </a>
         </div>
         <div className="copy">
