@@ -54,6 +54,30 @@ function portfolio() {
             </a>
           </div>
         </article>
+        <article className="folio-items">
+          <div className="portfolio-image">
+            <img src="./assets/logistics.png" alt="kagan" />
+          </div>
+          <div className="title">Real-Estate Website</div>
+          <div className="icons">
+            <a
+              href="https://github.com/Roche001/Logistics-company.git"
+              className="btn-a"
+              target="blank"
+            >
+              {" "}
+              <button className="btn-a">Github</button>
+            </a>
+            <a
+              href="https://andelleslogistics.netlify.app/"
+              className="btn-a"
+              target="blank"
+            >
+              {" "}
+              <button className="btn-a">Live Demo</button>
+            </a>
+          </div>
+        </article>
       </div>
     </section>
   );
