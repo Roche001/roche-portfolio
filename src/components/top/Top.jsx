@@ -10,7 +10,7 @@ function Top() {
   return (
     <Navbar bg="#020c1b" variant="#020c1b" sticky="top">
       <Navbar.Brand>
-        <img src="" alt="" />
+        <img src="./assets/logo6.png" alt="logo" width="40px" height="40px" />
       </Navbar.Brand>
       <div className="navbar">
         <nav>
