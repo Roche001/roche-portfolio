@@ -1,6 +1,6 @@
 import React from "react";
 import "./Top.css";
-import { Nav, Navbar, NavItem, NavDropdown, MenuItem } from "react-bootstrap";
+import { Nav, Navbar } from "react-bootstrap";
 import { AiFillHome } from "react-icons/ai";
 import { AiOutlineUser } from "react-icons/ai";
 import { BsBookmarksFill } from "react-icons/bs";
@@ -14,7 +14,7 @@ function Top() {
       </Navbar.Brand>
 
       <Nav>
-        <Nav.Link href="#h">
+        <Nav.Link href="#">
           <h4>
             <AiFillHome />
           </h4>
