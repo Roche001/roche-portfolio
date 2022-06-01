@@ -30,7 +30,7 @@ const Contacts = () => {
   };
 
   return (
-    <section id="Contacts">
+    <section id="Contacts" className="container-fluid">
       <h2>Get In Touch</h2>
       <div className="container">
         <div class="contact-options">
