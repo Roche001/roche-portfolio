@@ -68,14 +68,14 @@ textarea {
   color: #fff;
   border: 2px solid;
 }
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
   .container {
     width: 50%;
   }
   form {
     width: 50%;
   }
-}
+} */
 /* @media screen and (max-width: 600px) {
   .container {
     display: flex;
