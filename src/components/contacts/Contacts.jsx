@@ -83,39 +83,34 @@ const Contacts = () => {
           </div>
         </div>
       </div>
-      <div className="row">
-        <form ref={form} onSubmit={sendEmail}>
-          <div className="col-sm-3">
-            <input
-              type="text"
-              name="name"
-              placeholder="Your Full Name"
-              required
-            />
-          </div>
-          <div className="col-sm-3">
-            <input
-              type="email"
-              name="email"
-              placeholder="Your Email"
-              required
-            />
-          </div>
-          <div className="col-sm-3">
-            <textarea
-              name="message"
-              rows="8"
-              placeholder="Your Message"
-              required
-            ></textarea>
-          </div>
-          <div className="col-sm-3">
-            <button type="submit" class="btn">
-              Send Message
-            </button>
-          </div>
-        </form>
-      </div>
+
+      <form ref={form} onSubmit={sendEmail} className="row">
+        <div className="col-sm-3">
+          <input
+            type="text"
+            name="name"
+            placeholder="Your Full Name"
+            required
+          />
+        </div>
+        <div className="col-sm-3">
+          <input type="email" name="email" placeholder="Your Email" required />
+        </div>
+        <div className="col-sm-3">
+          <textarea
+            name="message"
+            rows="8"
+            placeholder="Your Message"
+            required
+          ></textarea>
+        </div>
+        <div className="col-sm-3">
+          <button type="submit" class="btn">
+            Send Message
+          </button>
+        </div>
+      </form>
+
       {/* </div> */}
     </section>
   );
