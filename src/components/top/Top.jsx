@@ -9,6 +9,9 @@ import { AiFillContacts } from "react-icons/ai";
 function Top() {
   return (
     <Navbar bg="#020c1b" variant="#020c1b" sticky="top">
+      <Navbar.Brand>
+        <img src="" alt="" />
+      </Navbar.Brand>
       <div className="navbar">
         <nav>
           <a href="#h">
