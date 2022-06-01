@@ -1,1 +1,4 @@
-
+.navbar {
+  box-shadow: 0.75em 0.75em 1em rgba(207, 202, 202, 0.1);
+  z-index: 10;
+}

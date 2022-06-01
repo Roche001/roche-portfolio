@@ -8,10 +8,11 @@ import { GoFileSubmodule } from "react-icons/go";
 import { AiFillContacts } from "react-icons/ai";
 function Top() {
   return (
-    <Navbar bg="#020c1b" variant="#020c1b" sticky="top" className="">
+    <Navbar bg="#020c1b" variant="#020c1b" sticky="top" className="navbar">
       <Navbar.Brand>
         <img src="./assets/logo6.png" alt="logo" width="50px" height="50px" />
       </Navbar.Brand>
+
       <Nav>
         <Nav.Link href="#h">
           <h4>
