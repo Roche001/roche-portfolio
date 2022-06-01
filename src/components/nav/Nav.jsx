@@ -10,7 +10,6 @@ function Nav() {
     <div className="navbar">
       <nav>
         <a href="#h">
-          {" "}
           <h4>
             <AiFillHome />
           </h4>
@@ -23,7 +22,6 @@ function Nav() {
           <h5 className="tooltip">About</h5>
         </a>
         <a href="#Experience">
-          {" "}
           <h4>
             <BsBookmarksFill />
           </h4>
@@ -31,14 +29,12 @@ function Nav() {
         </a>
         <a href="#Portfolio">
           <h4>
-            {" "}
-            <GoFileSubmodule />{" "}
+            <GoFileSubmodule />
           </h4>
           <h5 className="tooltip"> Portfolio</h5>
         </a>
         <a href="#Contacts">
           <h4>
-            {" "}
             <AiFillContacts />
           </h4>
           <h5 className="tooltip">Contacts</h5>
