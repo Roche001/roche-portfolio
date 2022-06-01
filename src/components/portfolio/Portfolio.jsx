@@ -8,7 +8,11 @@ function portfolio() {
       <div className="porfolio">
         <article className="folio-items">
           <div className="portfolio-image">
-            <img src="./assets/Restaurant1.png" alt="kagan" />
+            <img
+              className="img-fluid"
+              src="./assets/Restaurant1.png"
+              alt="kagan"
+            />
           </div>
           <div className="title">Restaurant Website</div>
           <div className="icons">
