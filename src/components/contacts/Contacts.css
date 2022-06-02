@@ -69,6 +69,8 @@ textarea {
   color: #fff;
   border: 2px solid;
 }
+.columns {
+}
 /* @media screen and (max-width: 1024px) {
   .container {
     width: 50%;
