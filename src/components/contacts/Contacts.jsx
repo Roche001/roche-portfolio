@@ -36,76 +36,84 @@ const Contacts = () => {
       </div>
 
       {/* <div className="container-a"> */}
+      <div className="row">
+        <div class="contact-options">
+          <div className="col-sm-2">
+            <div class="contact-option">
+              <MdMail />
+              <h4>Email</h4>
+              <h5>rocheharold13@gmail.com</h5>
+              <a href="mailto:rocheharold13@gmail.com" target="blank">
+                Send a Message
+              </a>
+            </div>
+          </div>
+          <div className="col-sm-2">
+            <div class="contact-option">
+              <BsMessenger />
+              <h4>Messenger</h4>
+              <h5>Roche Harold</h5>
+              <a
+                href="https:m.me/profile.php?id=100006045915802"
+                target="blank"
+              >
+                {" "}
+                Send a Message
+              </a>
+            </div>
+          </div>
+          <div className="col-sm-2">
+            <div class="contact-option">
+              <BsWhatsapp />
+              <h4>WhatsApp</h4>
+              <a
+                href="https://api.whatsapp.com/send?phone+254711229823"
+                target="blank"
+              >
+                Send a Message
+              </a>
+              <br />
+              <a
+                href="https://api.whatsapp.com/send?phone+254718485502"
+                target="blank"
+              >
+                Send a Message
+              </a>
+            </div>
+          </div>
+        </div>
 
-      <div class="contact-options row">
-        <div className="col-sm-4">
-          <div class="contact-option">
-            <MdMail />
-            <h4>Email</h4>
-            <h5>rocheharold13@gmail.com</h5>
-            <a href="mailto:rocheharold13@gmail.com" target="blank">
-              Send a Message
-            </a>
+        <form ref={form} onSubmit={sendEmail}>
+          <div className="col-sm-2">
+            <input
+              type="text"
+              name="name"
+              placeholder="Your Full Name"
+              required
+            />
           </div>
-        </div>
-        <div className="col-sm-4">
-          <div class="contact-option">
-            <BsMessenger />
-            <h4>Messenger</h4>
-            <h5>Roche Harold</h5>
-            <a href="https:m.me/profile.php?id=100006045915802" target="blank">
-              {" "}
-              Send a Message
-            </a>
+          <div className="col-sm-2">
+            <input
+              type="email"
+              name="email"
+              placeholder="Your Email"
+              required
+            />
           </div>
-        </div>
-        <div className="col-sm-4">
-          <div class="contact-option">
-            <BsWhatsapp />
-            <h4>WhatsApp</h4>
-            <a
-              href="https://api.whatsapp.com/send?phone+254711229823"
-              target="blank"
-            >
-              Send a Message
-            </a>
-            <br />
-            <a
-              href="https://api.whatsapp.com/send?phone+254718485502"
-              target="blank"
-            >
-              Send a Message
-            </a>
+          <div className="col-sm-2">
+            <textarea
+              name="message"
+              rows="8"
+              placeholder="Your Message"
+              required
+            ></textarea>
+
+            <button type="submit" class="btn">
+              Send Message
+            </button>
           </div>
-        </div>
+        </form>
       </div>
-
-      <form ref={form} onSubmit={sendEmail} className="row">
-        <div className="col-sm-3">
-          <input
-            type="text"
-            name="name"
-            placeholder="Your Full Name"
-            required
-          />
-        </div>
-        <div className="col-sm-3">
-          <input type="email" name="email" placeholder="Your Email" required />
-        </div>
-        <div className="col-sm-3">
-          <textarea
-            name="message"
-            rows="8"
-            placeholder="Your Message"
-            required
-          ></textarea>
-        </div>
-        <div className="col-sm-3">
-          <button type="submit" class="btn">
-            Send Message
-          </button>
-        </div>
-      </form>
 
       {/* </div> */}
     </section>
