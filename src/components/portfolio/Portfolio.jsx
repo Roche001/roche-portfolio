@@ -4,9 +4,12 @@ import "./Portfolio.css";
 function portfolio() {
   return (
     <section id="Portfolio" className="container">
-      <h2>My Noteworthy Projects</h2>
-      <div className="porfolio">
-        <article className="folio-items">
+      <div className="row">
+        <h2>My Noteworthy Projects</h2>
+      </div>
+
+      <div className="porfolio row">
+        <article className="folio-items cod-md-4">
           <div className="portfolio-image">
             <img
               className="img-fluid"
@@ -34,9 +37,9 @@ function portfolio() {
             </a>
           </div>
         </article>
-        <article className="folio-items">
+        <article className="folio-items col-md-4">
           <div className="portfolio-image">
-            <img src="./assets/Real.png" alt="kagan" />
+            <img src="./assets/Real.png" alt="kagan" className="img-fluid" />
           </div>
           <div className="title">Real-Estate Website</div>
           <div className="icons">
@@ -58,9 +61,13 @@ function portfolio() {
             </a>
           </div>
         </article>
-        <article className="folio-items">
+        <article className="folio-items col-md-4">
           <div className="portfolio-image">
-            <img src="./assets/logistics.png" alt="kagan" />
+            <img
+              src="./assets/logistics.png"
+              alt="kagan"
+              className="img-fluid"
+            />
           </div>
           <div className="title">Real-Estate Website</div>
           <div className="icons">
