@@ -71,6 +71,12 @@ textarea {
   color: #fff;
   border: 2px solid;
 }
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 
 /* @media screen and (max-width: 1024px) {
   .container {
