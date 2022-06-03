@@ -69,7 +69,8 @@ a:hover {
 }
 .btn:hover {
   background-color: rgb(58, 86, 87);
-  color: #fff;
+  color: #5d07e9;
+  font-weight: 900;
 }
 img {
   display: block;
