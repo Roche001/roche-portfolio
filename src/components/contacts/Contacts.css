@@ -1,6 +1,7 @@
 .container-a {
   width: 60%;
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
   grid-template-columns: 30% 60%;
   gap: 12rem;
   margin-left: 100px;
