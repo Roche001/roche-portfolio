@@ -36,7 +36,7 @@ const Contacts = () => {
       </div>
 
       <div className="container-a row">
-        <div class="contact-options">
+        <div className="contact-options row">
           <div className="col-sm-2">
             <div class="contact-option">
               <MdMail />
@@ -48,7 +48,7 @@ const Contacts = () => {
             </div>
           </div>
           <div className="col-sm-2 ">
-            <div class="contact-option">
+            <div className="contact-option">
               <BsMessenger />
               <h4>Messenger</h4>
               <h5>Roche Harold</h5>
@@ -62,7 +62,7 @@ const Contacts = () => {
             </div>
           </div>
           <div className="col-sm-2">
-            <div class="contact-option">
+            <div className="contact-option">
               <BsWhatsapp />
               <h4>WhatsApp</h4>
               <a
@@ -82,7 +82,7 @@ const Contacts = () => {
           </div>
         </div>
 
-        <form ref={form} onSubmit={sendEmail}>
+        <form ref={form} onSubmit={sendEmail} className="row">
           <div className="col-sm-2">
             <input
               type="text"
