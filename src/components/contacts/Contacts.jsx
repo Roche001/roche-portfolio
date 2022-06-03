@@ -37,82 +37,85 @@ const Contacts = () => {
 
       {/* <div className="container-a row"> */}
       <div className="row">
-        <div className="contact-options">
-          <div className="col-sm-2">
-            <div class="contact-option">
-              <MdMail />
-              <h4>Email</h4>
-              <h5>rocheharold13@gmail.com</h5>
-              <a href="mailto:rocheharold13@gmail.com" target="blank">
-                Send a Message
-              </a>
+        <div className="col">
+          <div className="contact-options">
+            <div className="col-sm-2">
+              <div class="contact-option">
+                <MdMail />
+                <h4>Email</h4>
+                <h5>rocheharold13@gmail.com</h5>
+                <a href="mailto:rocheharold13@gmail.com" target="blank">
+                  Send a Message
+                </a>
+              </div>
             </div>
-          </div>
-          <div className="col-sm-2 ">
-            <div className="contact-option">
-              <BsMessenger />
-              <h4>Messenger</h4>
-              <h5>Roche Harold</h5>
-              <a
-                href="https:m.me/profile.php?id=100006045915802"
-                target="blank"
-              >
-                {" "}
-                Send a Message
-              </a>
+            <div className="col-sm-2 ">
+              <div className="contact-option">
+                <BsMessenger />
+                <h4>Messenger</h4>
+                <h5>Roche Harold</h5>
+                <a
+                  href="https:m.me/profile.php?id=100006045915802"
+                  target="blank"
+                >
+                  {" "}
+                  Send a Message
+                </a>
+              </div>
             </div>
-          </div>
-          <div className="col-sm-2">
-            <div className="contact-option">
-              <BsWhatsapp />
-              <h4>WhatsApp</h4>
-              <a
-                href="https://api.whatsapp.com/send?phone+254711229823"
-                target="blank"
-              >
-                Send a Message
-              </a>
-              <br />
-              <a
-                href="https://api.whatsapp.com/send?phone+254718485502"
-                target="blank"
-              >
-                Send a Message
-              </a>
+            <div className="col-sm-2">
+              <div className="contact-option">
+                <BsWhatsapp />
+                <h4>WhatsApp</h4>
+                <a
+                  href="https://api.whatsapp.com/send?phone+254711229823"
+                  target="blank"
+                >
+                  Send a Message
+                </a>
+                <br />
+                <a
+                  href="https://api.whatsapp.com/send?phone+254718485502"
+                  target="blank"
+                >
+                  Send a Message
+                </a>
+              </div>
             </div>
           </div>
         </div>
+        <div className="col">
+          <form ref={form} onSubmit={sendEmail}>
+            <div className="col-sm-2">
+              <input
+                type="text"
+                name="name"
+                placeholder="Your Full Name"
+                required
+              />
+            </div>
+            <div className="col-sm-2">
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+            </div>
+            <div className="col-sm-2">
+              <textarea
+                name="message"
+                rows="8"
+                placeholder="Your Message"
+                required
+              ></textarea>
 
-        <form ref={form} onSubmit={sendEmail}>
-          <div className="col-sm-2">
-            <input
-              type="text"
-              name="name"
-              placeholder="Your Full Name"
-              required
-            />
-          </div>
-          <div className="col-sm-2">
-            <input
-              type="email"
-              name="email"
-              placeholder="Your Email"
-              required
-            />
-          </div>
-          <div className="col-sm-2">
-            <textarea
-              name="message"
-              rows="8"
-              placeholder="Your Message"
-              required
-            ></textarea>
-
-            <button type="submit" class="btn">
-              Send Message
-            </button>
-          </div>
-        </form>
+              <button type="submit" class="btn">
+                Send Message
+              </button>
+            </div>
+          </form>
+        </div>
       </div>
       {/* </div> */}
     </section>

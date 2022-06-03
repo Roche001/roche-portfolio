@@ -61,6 +61,7 @@ form {
   margin-top: 20px;
   cursor: pointer;
 }
+
 input,
 textarea {
   width: 100%;
@@ -70,8 +71,7 @@ textarea {
   color: #fff;
   border: 2px solid;
 }
-.columns {
-}
+
 /* @media screen and (max-width: 1024px) {
   .container {
     width: 50%;
