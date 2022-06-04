@@ -6,7 +6,7 @@ import { BsArrowRight } from "react-icons/bs";
 
 const About = () => {
   return (
-    <section id="About" className="container">
+    <section id="About" className="container-fluid">
       <div className="row">
         <h2>About Me</h2>
       </div>

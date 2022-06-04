@@ -4,7 +4,7 @@ import Jr from "./Jr";
 
 const Header = () => {
   return (
-    <header className="main">
+    <header className="main container-fluid">
       {" "}
       <div className="header_container">
         <h4>Hello, my name is</h4>

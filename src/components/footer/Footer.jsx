@@ -7,7 +7,7 @@ import { AiOutlineCopyrightCircle } from "react-icons/ai";
 import { BsLinkedin } from "react-icons/bs";
 function Footer() {
   return (
-    <section id="Footer">
+    <section id="Footer" className="container-fluid">
       <div className="footer">
         <div className="social">
           <a
