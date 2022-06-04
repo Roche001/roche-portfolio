@@ -41,7 +41,7 @@
 .text-a {
   text-align: center;
 }
-/* @media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   h2 {
     margin-top: 4rem;
   }
@@ -61,4 +61,4 @@
     margin: 30px;
     margin-top: -3rem;
   }
-} */
+}
