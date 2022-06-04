@@ -3,13 +3,13 @@ import "./Portfolio.css";
 
 function portfolio() {
   return (
-    <section id="Portfolio" className="container">
+    <section id="Portfolio" className="container-fluid">
       <div className="row">
         <h2>My Noteworthy Projects</h2>
       </div>
 
       <div className="porfolio row">
-        <article className="folio-items co1-md-4">
+        <article className="container-fluid folio-items co1-md-4">
           <div className="portfolio-image">
             <img
               className="img-fluid"
@@ -37,7 +37,7 @@ function portfolio() {
             </a>
           </div>
         </article>
-        <article className="folio-items col-md-4">
+        <article className=" container-fluid folio-items col-md-4">
           <div className="portfolio-image">
             <img src="./assets/Real.png" alt="kagan" className="img-fluid" />
           </div>
@@ -61,7 +61,7 @@ function portfolio() {
             </a>
           </div>
         </article>
-        <article className="folio-items col-md-4">
+        <article className=" container-fluid folio-items col-md-4">
           <div className="portfolio-image">
             <img
               src="./assets/logistics.png"
