@@ -9,9 +9,9 @@ const Experience = () => {
         <h2>Recently Used Technologies</h2>
       </div>
 
-      <h3>Front-End Development</h3>
-      <div className="experience-info">
+      <div className="experience-info skills">
         <div className="experience-details">
+          <h3>Front-End Development</h3>
           <div className="text-a">
             <h4>
               <span>
