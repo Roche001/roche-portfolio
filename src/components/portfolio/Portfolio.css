@@ -54,6 +54,7 @@
   gap: 1rem;
   justify-content: center;
   border: #020c1b;
+  text-decoration: none;
 }
 .btn-a {
   color: #020c1b;
