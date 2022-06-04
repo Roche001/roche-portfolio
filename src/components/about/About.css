@@ -18,6 +18,10 @@ h2 {
   border: #00ffff;
   cursor: pointer;
 }
+.box {
+  margin: 3rem;
+}
+
 .imgBx img {
   border-radius: 2rem;
   width: 20rem;
