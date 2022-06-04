@@ -4,7 +4,7 @@ import { IoIosPricetag } from "react-icons/io";
 
 const Experience = () => {
   return (
-    <section id="Experience container">
+    <section id="Experience" className="container">
       <div className="row">
         <h2>Recently Used Technologies</h2>
       </div>
