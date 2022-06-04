@@ -4,7 +4,7 @@ import "./Portfolio.css";
 function portfolio() {
   return (
     <section id="Portfolio" className="container-fluid">
-      <div className="row">
+      <div className=" port row">
         <h2>My Noteworthy Projects</h2>
       </div>
 
