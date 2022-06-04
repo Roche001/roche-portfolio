@@ -64,8 +64,8 @@
   padding: 0.75rem 1rem;
   cursor: pointer;
 }
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
   #Portfolio {
     margin-top: -20rem;
   }
-}
+} */

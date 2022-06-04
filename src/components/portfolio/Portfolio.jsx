@@ -9,7 +9,7 @@ function portfolio() {
       </div>
 
       <div className="porfolio row">
-        <article className="container-fluid folio-items co1-md-4">
+        <article className="container-fluid folio-items col-md-3 col-sm-6 col-xs-12">
           <div className="portfolio-image">
             <img
               className="img-fluid"
@@ -37,7 +37,7 @@ function portfolio() {
             </a>
           </div>
         </article>
-        <article className=" container-fluid folio-items col-md-4">
+        <article className=" container-fluid folio-items col-md-3 col-sm-6 col-xs-12">
           <div className="portfolio-image">
             <img src="./assets/Real.png" alt="kagan" className="img-fluid" />
           </div>
@@ -61,7 +61,7 @@ function portfolio() {
             </a>
           </div>
         </article>
-        <article className=" container-fluid folio-items col-md-4">
+        <article className=" container-fluid folio-items col-md-3 col-sm-6 col-xs-12">
           <div className="portfolio-image">
             <img
               src="./assets/logistics.png"
