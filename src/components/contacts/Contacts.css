@@ -81,15 +81,15 @@ textarea {
   text-align: center;
 }
 
-/* @media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .container {
     width: 50%;
   }
   form {
     width: 50%;
   }
-} */
-/* @media screen and (max-width: 600px) {
+}
+@media screen and (max-width: 600px) {
   .container {
     display: flex;
     flex-direction: row;
@@ -107,4 +107,4 @@ textarea {
   .contact-option {
     margin-left: -10rem;
   }
-} */
+}
