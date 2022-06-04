@@ -9,7 +9,7 @@ function portfolio() {
       </div>
 
       <div className="porfolio row">
-        <article className="folio-items cod-md-4">
+        <article className="folio-items co1-md-4">
           <div className="portfolio-image">
             <img
               className="img-fluid"
