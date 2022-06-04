@@ -37,53 +37,52 @@ const Contacts = () => {
 
       {/* <div className="container-a row"> */}
       <div className="row align-items-center">
-        <div className="col-md-6 ">
-          <div className="contact-options">
-            <div className="col-sm-2">
-              <div class="contact-option">
-                <MdMail />
-                <h4>Email</h4>
-                <h5>rocheharold13@gmail.com</h5>
-                <a href="mailto:rocheharold13@gmail.com" target="blank">
-                  Send a Message
-                </a>
-              </div>
+        <div className="contact-options col-md-6">
+          <div className="col-sm-2">
+            <div class="contact-option">
+              <MdMail />
+              <h4>Email</h4>
+              <h5>rocheharold13@gmail.com</h5>
+              <a href="mailto:rocheharold13@gmail.com" target="blank">
+                Send a Message
+              </a>
             </div>
-            <div className="col-sm-2 ">
-              <div className="contact-option">
-                <BsMessenger />
-                <h4>Messenger</h4>
-                <h5>Roche Harold</h5>
-                <a
-                  href="https:m.me/profile.php?id=100006045915802"
-                  target="blank"
-                >
-                  {" "}
-                  Send a Message
-                </a>
-              </div>
+          </div>
+          <div className="col-sm-2 ">
+            <div className="contact-option">
+              <BsMessenger />
+              <h4>Messenger</h4>
+              <h5>Roche Harold</h5>
+              <a
+                href="https:m.me/profile.php?id=100006045915802"
+                target="blank"
+              >
+                {" "}
+                Send a Message
+              </a>
             </div>
-            <div className="col-sm-2">
-              <div className="contact-option">
-                <BsWhatsapp />
-                <h4>WhatsApp</h4>
-                <a
-                  href="https://api.whatsapp.com/send?phone+254711229823"
-                  target="blank"
-                >
-                  Send a Message
-                </a>
-                <br />
-                <a
-                  href="https://api.whatsapp.com/send?phone+254718485502"
-                  target="blank"
-                >
-                  Send a Message
-                </a>
-              </div>
+          </div>
+          <div className="col-sm-2">
+            <div className="contact-option">
+              <BsWhatsapp />
+              <h4>WhatsApp</h4>
+              <a
+                href="https://api.whatsapp.com/send?phone+254711229823"
+                target="blank"
+              >
+                Send a Message
+              </a>
+              <br />
+              <a
+                href="https://api.whatsapp.com/send?phone+254718485502"
+                target="blank"
+              >
+                Send a Message
+              </a>
             </div>
           </div>
         </div>
+
         <div className="col-md-6 ">
           <form ref={form} onSubmit={sendEmail}>
             <div className="col-sm-2">
