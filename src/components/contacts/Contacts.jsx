@@ -35,9 +35,8 @@ const Contacts = () => {
         <h2>Get In Touch</h2>
       </div>
 
-      {/* <div className="container-a row"> */}
       <div className="row align-items-center">
-        <div className="contact-options col-md-6">
+        <div className="contact-options">
           <div className="col-sm-2">
             <div class="contact-option">
               <MdMail />
@@ -48,7 +47,7 @@ const Contacts = () => {
               </a>
             </div>
           </div>
-          <div className="col-sm-2 ">
+          <div className="col-sm-2 md-2 ">
             <div className="contact-option">
               <BsMessenger />
               <h4>Messenger</h4>
@@ -83,40 +82,37 @@ const Contacts = () => {
           </div>
         </div>
 
-        <div className="col-md-6 ">
-          <form ref={form} onSubmit={sendEmail}>
-            <div className="col-sm-2">
-              <input
-                type="text"
-                name="name"
-                placeholder="Your Full Name"
-                required
-              />
-            </div>
-            <div className="col-sm-2">
-              <input
-                type="email"
-                name="email"
-                placeholder="Your Email"
-                required
-              />
-            </div>
-            <div className="col-sm-2">
-              <textarea
-                name="message"
-                rows="8"
-                placeholder="Your Message"
-                required
-              ></textarea>
+        <form ref={form} onSubmit={sendEmail}>
+          <div className="col-sm-2">
+            <input
+              type="text"
+              name="name"
+              placeholder="Your Full Name"
+              required
+            />
+          </div>
+          <div className="col-sm-2">
+            <input
+              type="email"
+              name="email"
+              placeholder="Your Email"
+              required
+            />
+          </div>
+          <div className="col-sm-2">
+            <textarea
+              name="message"
+              rows="8"
+              placeholder="Your Message"
+              required
+            ></textarea>
 
-              <button type="submit" class="btn">
-                Send Message
-              </button>
-            </div>
-          </form>
-        </div>
+            <button type="submit" class="btn">
+              Send Message
+            </button>
+          </div>
+        </form>
       </div>
-      {/* </div> */}
     </section>
   );
 };
