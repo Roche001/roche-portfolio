@@ -34,7 +34,9 @@
   text-align: center;
   margin-bottom: 2rem;
 }
-
+.tech {
+  margin: 2rem;
+}
 .experience h4 {
   margin-left: 6px;
 }

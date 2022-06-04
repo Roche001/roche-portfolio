@@ -5,7 +5,7 @@ import { IoIosPricetag } from "react-icons/io";
 const Experience = () => {
   return (
     <section id="Experience" className="container-fluid">
-      <div className="row">
+      <div className=" tech row">
         <h2>Recently Used Technologies</h2>
       </div>
 
