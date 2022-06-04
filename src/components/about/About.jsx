@@ -6,15 +6,18 @@ import { BsArrowRight } from "react-icons/bs";
 
 const About = () => {
   return (
-    <section id="About">
-      <h2>About Me</h2>
-      <div className="about">
-        <div className="box">
+    <section id="About" className="container">
+      <div className="row">
+        <h2>About Me</h2>
+      </div>
+
+      <div className="about row">
+        <div className="box col-sm-6">
           <div className="imgBx">
             <img src="./assets/Roche2.jpg" alt="Me" />
           </div>
         </div>
-        <div className="text">
+        <div className="text col-sm-6">
           <article className="article-a">
             <BsFillFolderSymlinkFill className="icon" />
             <h4>Projects</h4>
