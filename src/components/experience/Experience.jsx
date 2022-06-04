@@ -10,11 +10,11 @@ const Experience = () => {
       </div>
 
       <div className="experience-info skills row">
-        <div className="col-sm-2">
+        <div className="">
           <h3>Front-End Development</h3>
         </div>
 
-        <div className="experience-details col-sm-2">
+        <div className="experience-details ">
           <div className="text-a">
             <h4>
               <span>
@@ -24,7 +24,7 @@ const Experience = () => {
             </h4>
           </div>
         </div>
-        <div className="experience-details col-sm-2">
+        <div className="experience-details ">
           <div className="text-a">
             <h4>
               {" "}
@@ -35,7 +35,7 @@ const Experience = () => {
             </h4>
           </div>
         </div>
-        <div className="experience-details col-sm-2">
+        <div className="experience-details ">
           <div className="text-a">
             <h4>
               <span>
@@ -45,7 +45,7 @@ const Experience = () => {
             </h4>
           </div>
         </div>
-        <div className="experience-details col-sm-2">
+        <div className="experience-details ">
           <div className="text-a">
             <h4>
               {" "}
@@ -56,7 +56,7 @@ const Experience = () => {
             </h4>
           </div>
         </div>
-        <div className="experience-details col-sm-2">
+        <div className="experience-details ">
           <h4>
             {" "}
             <span>
