@@ -12,18 +12,18 @@ const About = () => {
       </div>
 
       <div className="about row">
-        <div className="box col-md-4">
+        <div className="box col-md-6">
           <div className="imgBx">
             <img src="./assets/Roche2.jpg" alt="Me" />
           </div>
         </div>
-        <div className="text col-md-4">
-          <article className="article-a col-md-4">
+        <div className="text col-md-6">
+          <article className="article-a col-md-6">
             <BsFillFolderSymlinkFill className="icon" />
             <h4>Projects</h4>
             <small>5+ Projects</small>
           </article>
-          <div className="decription col-md-4">
+          <div className="decription col-md-8">
             <p>
               I am a web developer specialized in designing and constructing{" "}
               <br></br>
@@ -36,7 +36,7 @@ const About = () => {
               loading issues between pages or error messages.<br></br>
             </p>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-6">
             <a href="#Portfolio" className="btn">
               View My Projects <BsArrowRight />
             </a>
