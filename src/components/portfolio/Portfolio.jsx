@@ -28,7 +28,7 @@ function portfolio() {
               <button className="btn-a">Github</button>
             </a>
             <a
-              href="https://web-project-34f5b.web.app/"
+              href="https://rhinohillrestaurant.netlify.app/"
               className="btn-a"
               target="blank"
             >
