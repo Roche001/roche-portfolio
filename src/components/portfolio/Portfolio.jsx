@@ -4,15 +4,15 @@ import "./Portfolio.css";
 function portfolio() {
   return (
     <section id="Portfolio" className="container-fluid">
-      <div className=" port row">
+      <div className=" port row text-center">
         <h2>My Noteworthy Projects</h2>
       </div>
 
       <div className="porfolio row">
-        <article className="container-fluid folio-items col-md-3 col-sm-6 col-xs-12">
+        <article className="folio-items col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12">
           <div className="portfolio-image">
             <img
-              className="img-fluid"
+              className="d-block w-100"
               src="./assets/Restaurant1.png"
               alt="kagan"
             />
@@ -37,9 +37,13 @@ function portfolio() {
             </a>
           </div>
         </article>
-        <article className=" container-fluid folio-items col-md-3 col-sm-6 col-xs-12">
+        <article className="folio-items col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12">
           <div className="portfolio-image">
-            <img src="./assets/Real.png" alt="kagan" className="img-fluid" />
+            <img
+              className="d-block w-100"
+              src="./assets/Real.png"
+              alt="kagan"
+            />
           </div>
           <div className="title">Real-Estate Website</div>
           <div className="icons">
@@ -61,12 +65,12 @@ function portfolio() {
             </a>
           </div>
         </article>
-        <article className=" container-fluid folio-items col-md-3 col-sm-6 col-xs-12">
+        <article className="folio-items col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12">
           <div className="portfolio-image">
             <img
+              className="d-block w-100"
               src="./assets/logistics.png"
               alt="kagan"
-              className="img-fluid"
             />
           </div>
           <div className="title">Real-Estate Website</div>

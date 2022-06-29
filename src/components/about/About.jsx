@@ -12,12 +12,12 @@ const About = () => {
       </div>
 
       <div className="about row">
-        <div className="box col-md-6">
+        <div className="box col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
           <div className="imgBx">
             <img src="./assets/Roche2.jpg" alt="Me" />
           </div>
         </div>
-        <div className="text col-md-6">
+        <div className="text col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
           <article className="article-a col-md-6">
             <BsFillFolderSymlinkFill className="icon" />
             <h4>Projects</h4>

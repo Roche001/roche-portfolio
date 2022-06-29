@@ -1,26 +1,8 @@
-#Portfolio {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.porfolio {
-  position: relative;
-  align-items: center;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-content: center;
-  align-items: center;
-  width: 15rem;
-  gap: 2rem;
-}
 .portfolio-image img {
   height: 20rem;
-  width: 15rem;
+  width: 10rem;
 }
-.port {
-  margin: 4rem;
-}
+
 .folio-items {
   background-color: #00ffff;
   border-radius: 2rem;
@@ -29,9 +11,9 @@
   height: 28rem;
   border: #00ffff 2px solid;
   transition: var(--transition);
+  cursor: pointer;
   overflow: hidden;
-  cursor: pointer;
-  cursor: pointer;
+  margin: 1rem;
 }
 .folio-items:hover {
   background: transparent;
@@ -65,9 +47,4 @@
   display: inline-block;
   padding: 0.75rem 1rem;
   cursor: pointer;
-}
-@media screen and (max-width: 600px) {
-  #Portfolio {
-    margin-top: -20rem;
-  }
 }
