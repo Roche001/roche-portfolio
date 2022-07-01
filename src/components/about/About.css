@@ -18,11 +18,12 @@ h2 {
 }
 .box {
   margin-bottom: 4rem;
+  margin-left: rem;
 }
 
 .imgBx img {
   border-radius: 2rem;
-  width: 20rem;
+  width: 18rem;
   height: 20rem;
   border: solid;
   border-color: #0ffff7 solid;
