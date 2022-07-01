@@ -23,25 +23,25 @@ h2 {
 .imgBx img {
   border-radius: 2rem;
 
-  margin-left: 2rem;
+  margin-left: rem;
   border: solid;
   border-color: #0ffff7 solid;
   overflow: hidden;
   object-fit: cover;
-  transform: rotate(10deg);
+  transform: rotate(5deg);
   transition: var(--transition);
 }
 .imgBx img:hover {
   z-index: 1;
   color: #5d07e9;
-  transform: scale(1.25);
+  transform: scale(1.05);
   box-shadow: 0 25px 40px rgb(58, 86, 87);
   transform: rotate(10);
 }
 .text {
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: center;
   align-items: center;
 }
 .article-a {
