@@ -8,6 +8,8 @@
 }
 .contact {
   display: grid;
+  align-items: center;
+  justify-content: center;
   grid-template-columns: 1fr 1fr;
 }
 .contact-options {
