@@ -6,7 +6,6 @@
 }
 .skills {
   background: #0ffff7;
-  padding: 2.4rem 5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -26,19 +25,5 @@
 .experience-info {
   display: flex;
   flex-direction: column;
-  flex-wrap: nowrap;
   cursor: pointer;
-}
-.experience h3 {
-  text-align: center;
-  margin-bottom: 2rem;
-}
-.tech {
-  margin: 4rem;
-}
-.experience h4 {
-  margin-left: 6px;
-}
-.text-a {
-  text-align: center;
 }
