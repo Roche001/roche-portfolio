@@ -71,8 +71,3 @@ a:hover {
   color: #5d07e9;
   font-weight: 900;
 }
-img {
-  display: block;
-  width: 100%;
-  object-fit: cover;
-}
