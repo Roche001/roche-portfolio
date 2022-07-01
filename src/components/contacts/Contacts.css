@@ -1,8 +1,3 @@
-.container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2rem;
-}
 .container-a {
   width: 60%;
   display: flex;
@@ -10,6 +5,10 @@
   grid-template-columns: 30% 60%;
   gap: 12rem;
   margin-left: 100px;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 .contact-options {
   display: flex;
