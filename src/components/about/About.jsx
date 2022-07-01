@@ -6,7 +6,7 @@ import { BsArrowRight } from "react-icons/bs";
 
 const About = () => {
   return (
-    <section id="About" className="container-fluid">
+    <section id="About" className="container">
       <div className="row">
         <h2>About Me</h2>
       </div>
@@ -25,15 +25,11 @@ const About = () => {
           </article>
           <div className="decription col-md-8">
             <p>
-              I am a web developer specialized in designing and constructing{" "}
-              <br></br>
+              I am a web developer specialized in designing and constructing
               responsive websites using technologies such as HTML,CSS and
-              <br></br>
-              JavaScript. I ensure that sites meet user expectations by ensuring{" "}
-              <br></br>
-              they look good, run smoothly and offer easy access points with no{" "}
-              <br></br>
-              loading issues between pages or error messages.<br></br>
+              JavaScript. I ensure that sites meet user expectations by ensuring
+              they look good, run smoothly and offer easy access points with no
+              loading issues between pages or error messages.
             </p>
           </div>
           <div className="col-md-6">
