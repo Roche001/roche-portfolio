@@ -35,7 +35,7 @@ const Contacts = () => {
         <h2>Get In Touch</h2>
       </div>
 
-      <div className="row align-items-center">
+      <div className="row">
         <div className="contact-options">
           <div className="col-md-8">
             <div class="contact-option">
