@@ -42,10 +42,8 @@ h1 {
 section > h2 section > h5 {
   text-align: center;
 }
-section > h2 {
-  margin-bottom: 3rem;
+section {
 }
-
 a {
   color: #00ffff;
   transition: var(--transition);
