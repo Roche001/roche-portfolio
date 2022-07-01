@@ -37,7 +37,7 @@ const Contacts = () => {
 
       <div className="row">
         <div className="contact-options">
-          <div className="col-md-8">
+          <div className="">
             <div class="contact-option">
               <MdMail />
               <h4>Email</h4>
@@ -47,7 +47,7 @@ const Contacts = () => {
               </a>
             </div>
           </div>
-          <div className="col-md-8">
+          <div className="">
             <div className="contact-option">
               <BsMessenger />
               <h4>Messenger</h4>
@@ -61,7 +61,7 @@ const Contacts = () => {
               </a>
             </div>
           </div>
-          <div className="col-md-8">
+          <div className="">
             <div className="contact-option">
               <BsWhatsapp />
               <h4>WhatsApp</h4>
@@ -83,7 +83,7 @@ const Contacts = () => {
         </div>
 
         <form ref={form} onSubmit={sendEmail}>
-          <div className="col-md-8">
+          <div className="">
             <input
               type="text"
               name="name"
@@ -91,7 +91,7 @@ const Contacts = () => {
               required
             />
           </div>
-          <div className="col-md-8 ">
+          <div className="">
             <input
               type="email"
               name="email"
@@ -99,7 +99,7 @@ const Contacts = () => {
               required
             />
           </div>
-          <div className="col-md-8">
+          <div className="">
             <textarea
               name="message"
               rows="8"
