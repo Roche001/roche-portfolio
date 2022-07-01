@@ -28,9 +28,6 @@ body {
   flex-wrap: wrap;
 }
 
-.container {
-  width: var(--container-width-jf);
-}
 h1 h2 h3 h4 {
   font-weight: 400;
 }
