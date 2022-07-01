@@ -19,7 +19,6 @@
 }
 .skills:hover {
   background: transparent;
-  border-color: rgba(241, 241, 241, 0.822);
   color: #d6f5fa;
   cursor: default;
   border-color: #5d07e9;
