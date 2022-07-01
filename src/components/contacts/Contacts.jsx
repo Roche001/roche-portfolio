@@ -35,77 +35,83 @@ const Contacts = () => {
         <h2>Get In Touch</h2>
       </div>
       <div className="contact">
-        <div className="">
-          <div class="contact-option">
-            <MdMail />
-            <h4>Email</h4>
-            <h5>rocheharold13@gmail.com</h5>
-            <a href="mailto:rocheharold13@gmail.com" target="blank">
-              Send a Message
-            </a>
+        <div className="contact-options col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+          <div className="">
+            <div class="contact-option">
+              <MdMail />
+              <h4>Email</h4>
+              <h5>rocheharold13@gmail.com</h5>
+              <a href="mailto:rocheharold13@gmail.com" target="blank">
+                Send a Message
+              </a>
+            </div>
+          </div>
+          <div className="">
+            <div className="contact-option ">
+              <BsMessenger />
+              <h4>Messenger</h4>
+              <h5>Roche Harold</h5>
+              <a
+                href="https:m.me/profile.php?id=100006045915802"
+                target="blank"
+              >
+                {" "}
+                Send a Message
+              </a>
+            </div>
+          </div>
+          <div className="">
+            <div className="contact-option">
+              <BsWhatsapp />
+              <h4>WhatsApp</h4>
+              <a
+                href="https://api.whatsapp.com/send?phone+254711229823"
+                target="blank"
+              >
+                Send a Message
+              </a>
+              <br />
+              <a
+                href="https://api.whatsapp.com/send?phone+254718485502"
+                target="blank"
+              >
+                Send a Message
+              </a>
+            </div>
           </div>
         </div>
-        <div className="">
-          <div className="contact-option ">
-            <BsMessenger />
-            <h4>Messenger</h4>
-            <h5>Roche Harold</h5>
-            <a href="https:m.me/profile.php?id=100006045915802" target="blank">
-              {" "}
-              Send a Message
-            </a>
-          </div>
-        </div>
-        <div className="">
-          <div className="contact-option">
-            <BsWhatsapp />
-            <h4>WhatsApp</h4>
-            <a
-              href="https://api.whatsapp.com/send?phone+254711229823"
-              target="blank"
-            >
-              Send a Message
-            </a>
-            <br />
-            <a
-              href="https://api.whatsapp.com/send?phone+254718485502"
-              target="blank"
-            >
-              Send a Message
-            </a>
-          </div>
-        </div>
+        <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+          <form ref={form} onSubmit={sendEmail}>
+            <div className="">
+              <input
+                type="text"
+                name="name"
+                placeholder="Your Full Name"
+                required
+              />
+            </div>
+            <div className="">
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+            </div>
+            <div className="">
+              <textarea
+                name="message"
+                rows="8"
+                placeholder="Your Message"
+                required
+              ></textarea>
 
-        <form ref={form} onSubmit={sendEmail}>
-          <div className="">
-            <input
-              type="text"
-              name="name"
-              placeholder="Your Full Name"
-              required
-            />
-          </div>
-          <div className="">
-            <input
-              type="email"
-              name="email"
-              placeholder="Your Email"
-              required
-            />
-          </div>
-          <div className="">
-            <textarea
-              name="message"
-              rows="8"
-              placeholder="Your Message"
-              required
-            ></textarea>
-
-            <button type="submit" class="btn">
-              Send Message
-            </button>
-          </div>
-        </form>
+              <button type="submit" class="btn">
+                Send Message
+              </button>
+            </div>
+          </form>
+        </div>
       </div>
     </section>
   );
