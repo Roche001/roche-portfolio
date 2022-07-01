@@ -9,6 +9,7 @@
 .contact {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin-right: 15rem;
 }
 .contact-options {
   width: 20rem;
