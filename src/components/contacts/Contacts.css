@@ -8,8 +8,10 @@
 }
 .contact {
   display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 .contact-options {
+  width: 20rem;
   display: flex;
   flex-direction: column;
   color: #020c1b;
@@ -78,4 +80,16 @@ textarea {
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+@media screen and (max-width: 1024px) {
+  .contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 600px) {
+  .contact {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
