@@ -17,6 +17,7 @@ h2 {
   cursor: pointer;
 }
 .box {
+  margin-bottom: 4rem;
 }
 
 .imgBx img {
@@ -27,7 +28,6 @@ h2 {
   border-color: #0ffff7 solid;
   overflow: hidden;
   object-fit: cover;
-  margin-top: 4rem;
   transform: rotate(10deg);
   transition: var(--transition);
 }
@@ -45,6 +45,9 @@ h2 {
   align-items: center;
 }
 .article-a {
+  max-width: 10rem;
+  min-width: none;
+  width: 10rem;
   border: 1px solid transparent;
   border-radius: 1rem;
   text-align: center;
@@ -76,33 +79,4 @@ h2 {
 .decription p {
 }
 .decription a {
-  margin-top: 1rem;
-}
-
-@media screen and (max-width: 1024px) {
-  .about {
-    grid-template-columns: 1fr;
-    gap: 2rem;
-    width: 50%;
-    margin: 2rem auto 4rem;
-  }
-  .decription p {
-    margin-top: 3rem;
-    width: 200px;
-  }
-  .imgBx img {
-    width: 14rem;
-    margin-left: 2rem;
-  }
-}
-@media screen and (max-width: 600px) {
-  .about {
-    width: 65%;
-    margin: 0 auto 3rem;
-    grid-template-columns: 1fr 1fr;
-    gap: rem;
-  }
-  .imgBx img {
-    width: 20rem;
-  }
 }

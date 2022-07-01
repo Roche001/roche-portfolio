@@ -18,12 +18,12 @@ const About = () => {
           </div>
         </div>
         <div className="text col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-          <article className="article-a col-md-6">
+          <article className="article-a ">
             <BsFillFolderSymlinkFill className="icon" />
             <h4>Projects</h4>
             <small>5+ Projects</small>
           </article>
-          <div className="decription col-md-8">
+          <div className="decription">
             <p>
               I am a web developer specialized in designing and constructing
               responsive websites using technologies such as HTML,CSS and
