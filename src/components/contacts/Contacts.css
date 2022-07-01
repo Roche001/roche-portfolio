@@ -77,17 +77,3 @@ textarea {
   align-items: center;
   text-align: center;
 }
-
-@media screen and (max-width: 1024px) {
-  .container {
-    width: 50%;
-  }
-  form {
-    width: 50%;
-  }
-}
-@media screen and (max-width: 600px) {
-  #Contacts {
-    margin-top: 15rem;
-  }
-}
