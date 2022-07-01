@@ -27,7 +27,7 @@
   font-size: 0.9rem;
 }
 .contact-option {
-  width:15rem
+  width: 20rem;
   background-color: #0ffff7;
   border-radius: 1.2rem;
   text-align: center;
@@ -56,6 +56,7 @@ form {
   flex-direction: column;
   gap: 1.2rem;
   margin: 0.5rem;
+  margin-top: 4rem;
 }
 .btn {
   position: relative;
