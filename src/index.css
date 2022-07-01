@@ -27,9 +27,7 @@ body {
   line-height: 1.7;
   flex-wrap: wrap;
 }
-section {
-  margin-top: 8rem;
-}
+
 .container {
   width: var(--container-width-jf);
 }
@@ -80,21 +78,4 @@ img {
   display: block;
   width: 100%;
   object-fit: cover;
-}
-@media screen and (max-width: 1024px) {
-  .container {
-    width: var(--container-width-rh);
-  }
-  section {
-    margin-top: 6rem;
-    height: 100vh;
-  }
-}
-@media screen and (max-width: 600px) {
-  .container {
-    width: var(--container-width-sn);
-  }
-  section {
-    margin-top: 6rem;
-  }
 }
