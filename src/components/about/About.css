@@ -1,6 +1,4 @@
 .about {
-}
-.about {
   margin-top: 6rem;
 }
 h2 {
@@ -8,6 +6,8 @@ h2 {
 }
 
 .imgBx {
+  background-image: url("./assets/images.jpeg");
+  height: 30vh;
   cursor: pointer;
 }
 .box {
@@ -70,9 +70,4 @@ h2 {
   font-size: 0.95rem;
   margin-top: 0.2rem;
   margin-bottom: 0.5rem;
-}
-
-.decription p {
-}
-.decription a {
 }
