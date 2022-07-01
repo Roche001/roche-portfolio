@@ -43,6 +43,7 @@ section > h2 section > h5 {
   text-align: center;
 }
 section {
+  margin-bottom: 2rem;
 }
 a {
   color: #00ffff;

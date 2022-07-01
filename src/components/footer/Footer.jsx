@@ -5,9 +5,10 @@ import { RiFacebookCircleFill } from "react-icons/ri";
 import { AiFillTwitterCircle } from "react-icons/ai";
 import { AiOutlineCopyrightCircle } from "react-icons/ai";
 import { BsLinkedin } from "react-icons/bs";
+import { BsGithub } from "react-icons/bs";
 function Footer() {
   return (
-    <section id="Footer" className="container-fluid">
+    <div id="Footer">
       <div className="footer">
         <div className="social">
           <a
@@ -38,6 +39,13 @@ function Footer() {
           >
             <BsLinkedin />
           </a>
+          <a
+            href="https://github.com/Roche001"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <BsGithub />
+          </a>
         </div>
         <div className="copy">
           <small>
@@ -47,7 +55,7 @@ function Footer() {
           </small>
         </div>
       </div>
-    </section>
+    </div>
   );
 }
 
