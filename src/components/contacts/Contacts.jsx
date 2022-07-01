@@ -34,8 +34,7 @@ const Contacts = () => {
       <div className=" cont row">
         <h2>Get In Touch</h2>
       </div>
-
-      <div className="row">
+      <div className="container">
         <div className="contact-options">
           <div className="">
             <div class="contact-option">

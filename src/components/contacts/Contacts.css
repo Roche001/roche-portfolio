@@ -1,3 +1,8 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
 .container-a {
   width: 60%;
   display: flex;
@@ -45,7 +50,6 @@
   margin-bottom: 0.2rem;
 }
 form {
-  margin-top: 20px;
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
