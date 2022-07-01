@@ -9,7 +9,6 @@
 .contact {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-right: 15rem;
 }
 .contact-options {
   display: flex;
@@ -26,6 +25,7 @@
   font-size: 0.9rem;
 }
 .contact-option {
+  width:15rem
   background-color: #0ffff7;
   border-radius: 1.2rem;
   text-align: center;
