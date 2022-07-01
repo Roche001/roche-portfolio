@@ -36,80 +36,64 @@ const Contacts = () => {
       </div>
       <div className="contact container">
         <div className="contact-options">
-          <div className="">
-            <div class="contact-option">
-              <MdMail />
-              <h4>Email</h4>
-              <h5>rocheharold13@gmail.com</h5>
-              <a href="mailto:rocheharold13@gmail.com" target="blank">
-                Send a Message
-              </a>
-            </div>
+          <div class="contact-option">
+            <MdMail />
+            <h4>Email</h4>
+            <h5>rocheharold13@gmail.com</h5>
+            <a href="mailto:rocheharold13@gmail.com" target="blank">
+              Send a Message
+            </a>
           </div>
-          <div className="">
-            <div className="contact-option ">
-              <BsMessenger />
-              <h4>Messenger</h4>
-              <h5>Roche Harold</h5>
-              <a
-                href="https:m.me/profile.php?id=100006045915802"
-                target="blank"
-              >
-                {" "}
-                Send a Message
-              </a>
-            </div>
+
+          <div className="contact-option ">
+            <BsMessenger />
+            <h4>Messenger</h4>
+            <h5>Roche Harold</h5>
+            <a href="https:m.me/profile.php?id=100006045915802" target="blank">
+              {" "}
+              Send a Message
+            </a>
           </div>
-          <div className="">
-            <div className="contact-option">
-              <BsWhatsapp />
-              <h4>WhatsApp</h4>
-              <a
-                href="https://api.whatsapp.com/send?phone+254711229823"
-                target="blank"
-              >
-                Send a Message
-              </a>
-              <br />
-              <a
-                href="https://api.whatsapp.com/send?phone+254718485502"
-                target="blank"
-              >
-                Send a Message
-              </a>
-            </div>
+
+          <div className="contact-option">
+            <BsWhatsapp />
+            <h4>WhatsApp</h4>
+            <a
+              href="https://api.whatsapp.com/send?phone+254711229823"
+              target="blank"
+            >
+              Send a Message
+            </a>
+            <br />
+            <a
+              href="https://api.whatsapp.com/send?phone+254718485502"
+              target="blank"
+            >
+              Send a Message
+            </a>
           </div>
         </div>
 
         <form ref={form} onSubmit={sendEmail}>
-          <div className="">
-            <input
-              type="text"
-              name="name"
-              placeholder="Your Full Name"
-              required
-            />
-          </div>
-          <div className="">
-            <input
-              type="email"
-              name="email"
-              placeholder="Your Email"
-              required
-            />
-          </div>
-          <div className="">
-            <textarea
-              name="message"
-              rows="8"
-              placeholder="Your Message"
-              required
-            ></textarea>
+          <input
+            type="text"
+            name="name"
+            placeholder="Your Full Name"
+            required
+          />
 
-            <button type="submit" class="btn">
-              Send Message
-            </button>
-          </div>
+          <input type="email" name="email" placeholder="Your Email" required />
+
+          <textarea
+            name="message"
+            rows="8"
+            placeholder="Your Message"
+            required
+          ></textarea>
+
+          <button type="submit" class="btn">
+            Send Message
+          </button>
         </form>
       </div>
     </section>
