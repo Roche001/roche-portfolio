@@ -27,3 +27,9 @@
   flex-direction: column;
   cursor: pointer;
 }
+.dev h3 {
+  color: #020c1b;
+}
+.dev h3:hover {
+  color: #d6f5fa;
+}
