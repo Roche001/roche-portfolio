@@ -26,6 +26,7 @@ body {
   font-family: "Asap", sans-serif;
   line-height: 1.7;
   flex-wrap: wrap;
+  overflow-x: hidden;
 }
 
 h1 h2 h3 h4 {
