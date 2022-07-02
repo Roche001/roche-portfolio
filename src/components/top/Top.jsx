@@ -6,40 +6,44 @@ import { AiOutlineUser } from "react-icons/ai";
 import { BsBookmarksFill } from "react-icons/bs";
 import { GoFileSubmodule } from "react-icons/go";
 import { AiFillContacts } from "react-icons/ai";
+import { Container } from "react-bootstrap";
 function Top() {
   return (
-    <Navbar bg="#020c1b" variant="#020c1b" sticky="top" className="navbar">
-      <Navbar.Brand>
-        <img src="./assets/logo6.png" alt="logo" width="50px" height="50px" />
-      </Navbar.Brand>
-
-      <Nav>
-        <Nav.Link href="#">
-          <h4>
-            <AiFillHome />
-          </h4>
-        </Nav.Link>
-        <Nav.Link href="#About">
-          <h4>
-            <AiOutlineUser />
-          </h4>
-        </Nav.Link>
-        <Nav.Link href="#Experience">
-          <h4>
-            <BsBookmarksFill />
-          </h4>
-        </Nav.Link>
-        <Nav.Link href="#Portfolio">
-          <h4>
-            <GoFileSubmodule />
-          </h4>
-        </Nav.Link>
-        <Nav.Link href="#Contacts">
-          <h4>
-            <AiFillContacts />
-          </h4>
-        </Nav.Link>
-      </Nav>
+    <Navbar collapseOnSelect expand="lg" bg="#020c1b" variant="dark">
+      <Container>
+        <Navbar.Brand href="#Home">
+          <div className="img">
+            <img
+              src="./assets/logo6.png"
+              alt="logo"
+              width="50px"
+              height="50px"
+            />
+          </div>
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <div className="nav-items">
+          <Navbar.Collapse id="responsive-navbar-nav">
+            <Nav className="me-auto">
+              <Nav.Link href="#Header">
+                <h6>Home</h6>
+              </Nav.Link>
+              <Nav.Link href="#About">
+                <h6>About</h6>
+              </Nav.Link>
+              <Nav.Link href="#Experience">
+                <h6>Experience</h6>
+              </Nav.Link>
+              <Nav.Link href="#Portfolio">
+                <h6>Portfolio</h6>
+              </Nav.Link>
+              <Nav.Link href="#Contacts">
+                <h6>Contacts</h6>
+              </Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+        </div>
+      </Container>
     </Navbar>
   );
 }
