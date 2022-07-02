@@ -22,7 +22,7 @@ html {
 }
 body {
   background-image: url("././assets/website.jpg");
-  background-repeat: ;
+  background-repeat: no-repeat;
   height: 100vh;
   background-attachment: fixed;
   background-position: center;
