@@ -1,11 +1,6 @@
 import React from "react";
 import "./Top.css";
 import { Nav, Navbar } from "react-bootstrap";
-import { AiFillHome } from "react-icons/ai";
-import { AiOutlineUser } from "react-icons/ai";
-import { BsBookmarksFill } from "react-icons/bs";
-import { GoFileSubmodule } from "react-icons/go";
-import { AiFillContacts } from "react-icons/ai";
 import { Container } from "react-bootstrap";
 function Top() {
   return (
