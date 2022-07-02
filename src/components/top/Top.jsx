@@ -6,7 +6,7 @@ function Top() {
   return (
     <Navbar collapseOnSelect expand="lg" bg="#020c1b" variant="dark">
       <Container>
-        <Navbar.Brand href="#Home">
+        <Navbar.Brand href="#Header">
           <div className="img">
             <img
               src="./assets/logo6.png"
