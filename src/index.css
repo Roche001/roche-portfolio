@@ -51,9 +51,9 @@ a {
   color: #00ffff;
   transition: var(--transition);
 }
-a:hover {
+/* a:hover {
   color: #fff;
-}
+} */
 .selector-for-some-widget {
   box-sizing: content-box;
 }
