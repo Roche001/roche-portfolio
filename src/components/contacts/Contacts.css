@@ -96,4 +96,7 @@ textarea {
     display: grid;
     grid-template-columns: 1fr;
   }
+  .contact-option {
+    width: 100%;
+  }
 }
