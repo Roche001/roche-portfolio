@@ -21,7 +21,12 @@ html {
   --container-width-sn: 98%;
 }
 body {
-  background-color: #020c1b;
+  background-image: url("././assets/website.jpg");
+  background-repeat: ;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
   color: #d6f5fa;
   font-family: "Asap", sans-serif;
   line-height: 1.7;
