@@ -22,7 +22,8 @@ function portfolio() {
             <a
               href="https://github.com/Roche001/Rhino-Hill-Restaurant.git"
               className="btn-a"
-              target="blank"
+              target="_blank"
+              rel="noreferrer"
             >
               {" "}
               <button className="btn-a">Github</button>
@@ -30,7 +31,8 @@ function portfolio() {
             <a
               href="https://rhinohillrestaurant.netlify.app/"
               className="btn-a"
-              target="blank"
+              target="_blank"
+              rel="noreferrer"
             >
               {" "}
               <button className="btn-a">Live Demo</button>
@@ -50,15 +52,17 @@ function portfolio() {
             <a
               href="https://github.com/Roche001/Real-Estate-website.git"
               className="btn-a"
-              target="blank"
+              target="_blank"
+              rel="noreferrer"
             >
               {" "}
               <button className="btn-a">Github</button>
             </a>
             <a
-              href="https://real-estate-610fa.web.app/"
+              href="https://pharolix.netlify.app"
               className="btn-a"
-              target="blank"
+              target="_blank"
+              rel="noreferrer"
             >
               {" "}
               <button className="btn-a">Live Demo</button>
@@ -78,7 +82,8 @@ function portfolio() {
             <a
               href="https://github.com/Roche001/Logistics-company.git"
               className="btn-a"
-              target="blank"
+              target="_blank"
+              rel="noreferrer"
             >
               {" "}
               <button className="btn-a">Github</button>
@@ -86,7 +91,8 @@ function portfolio() {
             <a
               href="https://andelleslogistics.netlify.app/"
               className="btn-a"
-              target="blank"
+              target="_blank"
+              rel="noreferrer"
             >
               {" "}
               <button className="btn-a">Live Demo</button>
