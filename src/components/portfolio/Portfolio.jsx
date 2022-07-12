@@ -53,7 +53,7 @@ function portfolio() {
               href="https://github.com/Roche001/Real-Estate-website.git"
               className="btn-a"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               {" "}
               <button className="btn-a">Github</button>
