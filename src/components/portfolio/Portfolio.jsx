@@ -23,7 +23,7 @@ function portfolio() {
               href="https://github.com/Roche001/Rhino-Hill-Restaurant.git"
               className="btn-a"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               {" "}
               <button className="btn-a">Github</button>
@@ -32,7 +32,7 @@ function portfolio() {
               href="https://rhinohillrestaurant.netlify.app/"
               className="btn-a"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               {" "}
               <button className="btn-a">Live Demo</button>
