@@ -83,7 +83,7 @@ function portfolio() {
               href="https://github.com/Roche001/Logistics-company.git"
               className="btn-a"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               {" "}
               <button className="btn-a">Github</button>
@@ -92,7 +92,7 @@ function portfolio() {
               href="https://andelleslogistics.netlify.app/"
               className="btn-a"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               {" "}
               <button className="btn-a">Live Demo</button>
