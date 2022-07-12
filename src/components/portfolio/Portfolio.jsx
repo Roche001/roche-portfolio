@@ -62,7 +62,7 @@ function portfolio() {
               href="https://pharolix.netlify.app"
               className="btn-a"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               {" "}
               <button className="btn-a">Live Demo</button>
