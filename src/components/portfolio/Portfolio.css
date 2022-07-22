@@ -28,9 +28,9 @@
   font-size: 1.5;
 }
 .icons {
-  display: flex;
-  gap: 1rem;
+  display: flex; 
   justify-content: center;
+  align-items: center;
   margin-bottom: 0.5rem;
 }
 .icons a {
