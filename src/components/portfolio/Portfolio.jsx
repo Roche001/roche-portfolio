@@ -10,13 +10,13 @@ function portfolio() {
 
       <div className="porfolio row">
         <article className="folio-items col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12">
-          <div className="portfolio-image">
+          
             <img
               className="d-block w-100"
               src="./assets/Restaurant1.png"
               alt="kagan"
             />
-          </div>
+         
           <div className="title">Restaurant Website</div>
           <div className="icons">
             <a

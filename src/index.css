@@ -55,9 +55,7 @@ a {
 a:hover {
   color: #fff;
 }
-.selector-for-some-widget {
-  box-sizing: content-box;
-}
+
 
 .btn {
   width: max-content;
