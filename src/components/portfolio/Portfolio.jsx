@@ -40,13 +40,13 @@ function portfolio() {
           </div>
         </article>
         <article className="folio-items col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12">
-          <div className="portfolio-image">
+          
             <img
               className="d-block w-100"
               src="./assets/Real.png"
               alt="kagan"
             />
-          </div>
+        
           <div className="title">Real-Estate Website</div>
           <div className="icons">
             <a
@@ -70,13 +70,13 @@ function portfolio() {
           </div>
         </article>
         <article className="folio-items col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12">
-          <div className="portfolio-image">
+         
             <img
               className="d-block w-100"
               src="./assets/logistics.png"
               alt="kagan"
             />
-          </div>
+         
           <div className="title">Real-Estate Website</div>
           <div className="icons">
             <a
