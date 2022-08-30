@@ -1,49 +1,36 @@
-
-.folio-items img{
-  height: 20rem;
+.riley-card {
+  height: 21rem;
   width: 20rem;
-}
-
-.folio-items {
-  background-color: #00ffff;
-  border-radius: 2rem;
-  color: #020c1b;
-  width: 15rem;
-  height: 28rem;
-  border: #00ffff 2px solid;
-  transition: var(--transition);
+  border-radius: 1.2rem;
   overflow: hidden;
+  border: 3px solid #0ffff7;
+  transition: 400ms ease-in-out;
   margin: 1rem;
 }
-.folio-items:hover {
+.riley-card:hover {
   background: transparent;
-  color: #d6f5fa;
-  cursor: default;
   border: #5d07e9 3px solid;
-  transition: transition;
+  box-shadow: 0 25px 40px rgb(58, 86, 87);
 }
-.title {
+.riley-card-box {
+  height: 10rem;
+  width: 20rem;
+}
+.riley-text {
   display: flex;
-  justify-content: center;
-  font-size: 1.5;
-}
-.icons {
-  display: flex; 
-  justify-content: center;
+  flex-direction: row;
   align-items: center;
-  margin-bottom: 0.5rem;
+  justify-content: space-between;
+  background: #0ffff7;
 }
-.icons a {
-  display: flex;
-  gap: 1rem;
-  justify-content: center;
-  border: #020c1b;
-  text-decoration: none;
-}
-.btn-a {
+
+.riley-text h3 {
+  padding: 1rem;
+  background: #0ffff7;
   color: #020c1b;
-  border-radius: 0.5rem;
-  width: max-content;
-  padding: 0.75rem 1rem;
-  cursor: pointer;
+  font-size: 2rem;
+  border-radius: 0.2rem;
+}
+.riley-text h3:hover {
+  color: #5d07e9;
 }
