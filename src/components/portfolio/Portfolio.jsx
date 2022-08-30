@@ -70,7 +70,7 @@ function portfolio() {
           </div>
           <div className="riley-text">
             <a
-              href="https://github.com/Roche001/Rhino-Hill-Restaurant"
+              href="https://github.com/Roche001/high-rise"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -80,7 +80,7 @@ function portfolio() {
             </a>
 
             <a
-              href="https://rhinohillrestaurant.netlify.app/"
+              href="https://rhinohillrestaurant.lify.app/"
               target="_blank"
               rel="noopener noreferrer"
             >
