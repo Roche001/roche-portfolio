@@ -16,7 +16,11 @@
 .riley-card-box {
   height: 10rem;
   width: 20rem;
-  object-fit: cover;
+}
+.riley-card-box img {
+  margin: 0;
+  padding: 0;
+  display: block;
 }
 .riley-text {
   display: flex;
