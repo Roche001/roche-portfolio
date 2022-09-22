@@ -6,6 +6,10 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  transition: 400ms ease-in-out;
+}
+.social:hover {
+  transform: scale(1.2);
 }
 .social a {
   color: #020c1b;
