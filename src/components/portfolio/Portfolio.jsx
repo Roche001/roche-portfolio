@@ -1,95 +1,89 @@
 import React from "react";
 import "./Portfolio.css";
+import Card from "react-bootstrap/Card";
 import { AiFillGithub } from "react-icons/ai";
-import { FaEye } from "react-icons/fa";
+import { IoIosShareAlt } from "react-icons/io";
 
 function portfolio() {
   return (
     <div id="Portfolio" className="riley">
       <h2>Portfolio</h2>
-      <div className="big-riley row">
-        <div className="riley-card col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
-          <div className="riley-card-box">
-            <img className="d-block w-100" src="./assets/long.png" alt="hill" />
-          </div>
-          <div className="riley-text">
-            <a
-              href="https://github.com/Roche001/Rhino-Hill-Restaurant"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h3>
-                <AiFillGithub />
-              </h3>
-            </a>
 
-            <a
-              href="https://rhinohillrestaurant.netlify.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h3>
-                <FaEye />
-              </h3>
-            </a>
-          </div>
-        </div>
-        <div className="riley-card col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
-          <div className="riley-card-box">
-            <img
-              className="d-block w-100"
-              src="./assets/logistics.png"
-              alt="hill"
-            />
-          </div>
-          <div className="riley-text">
-            <a
-              href="https://github.com/Roche001/Logistics-company"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h3>
+      <div className="card-container">
+        <Card style={{ width: "18rem" }} className="card-one">
+          <Card.Img
+            variant="top"
+            src="./assets/long1(1).png"
+            alt="Rhino Hill"
+          />
+          <Card.Body>
+            <div className="card-body">
+              <a
+                href="https://github.com/Roche001/Rhino-Hill-Restaurant.git"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {" "}
                 <AiFillGithub />
-              </h3>
-            </a>
-
-            <a
-              href="https://andelleslogistics.netlify.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h3>
-                <FaEye />
-              </h3>
-            </a>
-          </div>
-        </div>
-        <div className="riley-card col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
-          <div className="riley-card-box">
-            <img className="d-block w-100" src="./assets/rise.png" alt="hill" />
-          </div>
-          <div className="riley-text">
-            <a
-              href="https://github.com/Roche001/high-rise"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h3>
+              </a>
+              <a
+                href="https://rhinohillrestaurant.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <IoIosShareAlt />
+              </a>
+            </div>
+          </Card.Body>
+        </Card>
+        <Card style={{ width: "18rem" }} className="card-one">
+          <Card.Img
+            variant="top"
+            src="./assets/logistics(1).png"
+            alt="Rhino Hill"
+          />
+          <Card.Body>
+            <div className="card-body">
+              <a
+                href="https://github.com/Roche001/Logistics-company.git"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {" "}
                 <AiFillGithub />
-              </h3>
-            </a>
-
-            <a
-              href="https://rhinohillrestaurant.lify.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h3>
-                <FaEye />
-              </h3>
-            </a>
-          </div>
-        </div>
+              </a>
+              <a
+                href="https://andelleslogistics.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <IoIosShareAlt />
+              </a>
+            </div>
+          </Card.Body>
+        </Card>
+        <Card style={{ width: "18rem" }} className="card-one">
+          <Card.Img variant="top" src="./assets/rise.png" alt="Rhino Hill" />
+          <Card.Body>
+            <div className="card-body">
+              <a
+                href="https://github.com/Roche001/high-rise.git"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {" "}
+                <AiFillGithub />
+              </a>
+              <a
+                href="https://andelleslogistics.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <IoIosShareAlt />
+              </a>
+            </div>
+          </Card.Body>
+        </Card>
       </div>
     </div>
   );

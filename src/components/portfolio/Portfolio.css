@@ -1,42 +1,42 @@
-.riley-card {
-  height: 21rem;
-  width: 20rem;
-  border-radius: 1.2rem;
-  overflow: hidden;
-  border: 3px solid #0ffff7;
-  transition: 400ms ease-in-out;
-  margin: 1rem;
-  object-fit: cover;
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.riley-card:hover {
-  background: transparent;
-  border: #5d07e9 3px solid;
-  box-shadow: 0 25px 40px rgb(58, 86, 87);
-}
-.riley-card-box {
-  height: 10rem;
-  width: 20rem;
-}
-.riley-card-box img {
-  margin: 0;
-  padding: 0;
-  display: block;
-}
-.riley-text {
+.card-body {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background: #0ffff7;
+  margin-top: -1rem;
+  background: #00ffff;
+}
+.card-body a {
+  font-size: 2rem;
+  color: #ffff;
+  transition: 400ms ease-in-out;
+}
+.card-body:hover {
+  background: transparent;
 }
 
-.riley-text h3 {
-  padding: 1rem;
-  background: #0ffff7;
-  color: #020c1b;
-  font-size: 2rem;
-  border-radius: 0.2rem;
-}
-.riley-text h3:hover {
+.card-body a :hover {
   color: #5d07e9;
+}
+.card-one {
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  transition: 400ms ease-in-out;
+}
+.card-one:hover {
+  background: transparent;
+  border: 3px solid #5d07e9;
+  box-shadow: 0 25px 40px rgb(58, 86, 87);
+}
+@media screen and (max-width: 800px) {
+  .card-container {
+    display: flex;
+    flex-direction: column;
+  }
 }
