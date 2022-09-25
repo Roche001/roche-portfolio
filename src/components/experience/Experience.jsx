@@ -13,58 +13,61 @@ const Experience = () => {
         <div className="dev">
           <h3>Front-End Development</h3>
         </div>
-
-        <div className="experience-details ">
-          <div className="text-a">
-            <h4>
-              <span>
-                <IoIosPricetag />
-              </span>
-              JavaScript
-            </h4>
-          </div>
-        </div>
-        <div className="experience-details ">
-          <div className="text-a">
-            <h4>
-              {" "}
-              <span>
-                <IoIosPricetag />
-              </span>
-              CSS
-            </h4>
-          </div>
-        </div>
-        <div className="experience-details ">
-          <div className="text-a">
-            <h4>
-              <span>
-                <IoIosPricetag />
-              </span>{" "}
-              Bootstrap
-            </h4>
-          </div>
-        </div>
-        <div className="experience-details ">
-          <div className="text-a">
-            <h4>
-              {" "}
-              <span>
-                <IoIosPricetag />
-              </span>
-              HTML
-            </h4>
-          </div>
-        </div>
-        <div className="experience-details ">
-          <h4>
-            {" "}
-            <span>
-              <IoIosPricetag />
-            </span>
-            ReactJS
-          </h4>
-        </div>
+        <ul>
+          <li>
+            <div className="text-a">
+              <h4>
+                <span>
+                  <IoIosPricetag />
+                </span>
+                JavaScript
+              </h4>
+            </div>
+          </li>
+          <li>
+            <div className="text-a">
+              <h4>
+                <span>
+                  <IoIosPricetag />
+                </span>{" "}
+                Bootstrap
+              </h4>
+            </div>
+          </li>
+          <li>
+            <div className="text-a">
+              <h4>
+                {" "}
+                <span>
+                  <IoIosPricetag />
+                </span>
+                ReactJS
+              </h4>
+            </div>
+          </li>
+          <li>
+            <div className="text-a">
+              <h4>
+                {" "}
+                <span>
+                  <IoIosPricetag />
+                </span>
+                HTML
+              </h4>
+            </div>
+          </li>
+          <li>
+            <div className="text-a">
+              <h4>
+                {" "}
+                <span>
+                  <IoIosPricetag />
+                </span>
+                CSS
+              </h4>
+            </div>
+          </li>
+        </ul>
       </div>
     </section>
   );
