@@ -8,20 +8,21 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin-top: -1rem;
   background: #00ffff;
 }
+.card-body:hover {
+  background: transparent;
+  color: #ffff;
+}
+
 .card-body a {
   font-size: 2rem;
   color: #ffff;
   transition: 400ms ease-in-out;
 }
-.card-body:hover {
-  background: transparent;
-}
 
 .card-body a :hover {
-  color: #5d07e9;
+  color: #fff;
 }
 .card-one {
   margin: 0.5rem;
