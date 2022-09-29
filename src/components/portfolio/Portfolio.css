@@ -1,43 +1,46 @@
+.ranch-card {
+  width: 22rem;
+  height: 35rem;
+  border: 2px solid #5d07e9;
+  transition: 400ms ease-in-out;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  transition: width 0.5s;
+}
+.ranch-card:hover {
+  box-shadow: 0px 8px 30px #ffff;
+  border: none;
+}
+
+.card-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0.5rem;
+}
+.card-text h4 {
+  font-weight: 700;
+}
+.card-text a {
+  text-decoration: none;
+  color: #fff;
+}
 .card-container {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.card-body {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  background: #00ffff;
-}
-.card-body:hover {
-  background: transparent;
-  color: #ffff;
-}
-
-.card-body a {
-  font-size: 2rem;
-  color: #ffff;
-  transition: 400ms ease-in-out;
-}
-
-.card-body a :hover {
-  color: #fff;
-}
-.card-one {
-  margin: 0.5rem;
-  border-radius: 0.5rem;
-  overflow: hidden;
-  transition: 400ms ease-in-out;
-}
-.card-one:hover {
-  background: transparent;
-  border: 3px solid #5d07e9;
-  box-shadow: 0 25px 40px rgb(58, 86, 87);
+.nopadding {
+  padding: 0 !important;
 }
 @media screen and (max-width: 800px) {
   .card-container {
     display: flex;
     flex-direction: column;
+  }
+  .ranch-card {
+    width: 95%;
   }
 }
