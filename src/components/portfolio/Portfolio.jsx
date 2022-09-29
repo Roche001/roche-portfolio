@@ -1,6 +1,6 @@
 import React from "react";
 import "./Portfolio.css";
-import Card from "react-bootstrap/Card";
+
 import { AiFillGithub } from "react-icons/ai";
 import { IoIosShareAlt } from "react-icons/io";
 
