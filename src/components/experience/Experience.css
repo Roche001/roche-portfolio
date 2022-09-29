@@ -1,29 +1,37 @@
-#Experience {
+.front-end-card {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  background: transparent;
+  box-shadow: 0px 8px 30px #ffff;
+  height: 10rem;
+  width: 10rem;
+  border-radius: 0.5rem;
+  transition: 400ms ease-in-out;
+  transition: width 0.5s;
+  transition-timing-function: linear;
+  margin: 1rem;
 }
-.skills {
-  background: #0ffff7;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 20rem;
+.front-end-card:hover {
+  width: 350px;
+  background: #00ffff;
   color: #020c1b;
-  border-radius: 2rem;
-  border: 2px solid transparent;
+  box-shadow: none;
+}
+.front-end-card h4 {
+  font-weight: 700;
+  font-size: 1rem;
+}
+.front-end-card img {
+  width: 5rem;
+  height: 5rem;
+}
+.front-container h3 {
   text-align: center;
 }
-.skills:hover {
-  background: transparent;
-  color: #d6f5fa;
-  cursor: default;
-  border-color: #5d07e9;
-}
-.experience-info {
-  display: flex;
-  flex-direction: column;
-  cursor: pointer;
+.front-end {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
 }
