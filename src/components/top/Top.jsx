@@ -27,7 +27,7 @@ function Top() {
                 <h6>About</h6>
               </Nav.Link>
               <Nav.Link href="#Experience">
-                <h6>Experience</h6>
+                <h6>Skills</h6>
               </Nav.Link>
               <Nav.Link href="#Portfolio">
                 <h6>Portfolio</h6>
