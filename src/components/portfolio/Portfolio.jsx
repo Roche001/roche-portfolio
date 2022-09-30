@@ -6,7 +6,7 @@ import { IoIosShareAlt } from "react-icons/io";
 
 function portfolio() {
   return (
-    <div id="Portfolio" className="riley container-fluid">
+    <div id="Portfolio" className="riley container">
       <h2>Portfolio</h2>
 
       <div className="card-container row">
