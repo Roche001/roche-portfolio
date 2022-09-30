@@ -12,7 +12,14 @@
   box-shadow: 0px 8px 30px #ffff;
   border: none;
 }
-
+.card-img {
+  width: 22rem;
+  height: 25rem;
+}
+.card-img img {
+  width: 100%;
+  height: 100%;
+}
 .card-text {
   display: flex;
   flex-direction: column;
@@ -44,5 +51,11 @@
   }
   .ranch-card {
     width: 95%;
+  }
+  .card-img {
+    width: 100%;
+  }
+  .card-img img {
+    width: 100%;
   }
 }

@@ -12,11 +12,7 @@ function portfolio() {
       <div className="card-container row">
         <div className="ranch-card nopadding col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
           <div className="card-img">
-            <img
-              className="d-block w-100"
-              src="./assets/long1(1).png"
-              alt="Rhino Hill"
-            />
+            <img src="./assets/long1(1).png" alt="Rhino Hill" />
           </div>
           <div className="card-text">
             <h4>Restaurant Website</h4>
