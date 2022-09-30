@@ -35,3 +35,8 @@
   grid-template-columns: 1fr 1fr;
   align-items: center;
 }
+@media screen and (max-width: 600px) {
+  .front-end-card {
+    width: 80%;
+  }
+}
