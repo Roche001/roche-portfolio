@@ -1,5 +1,8 @@
 .about {
   margin-top: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 h2 {
   text-align: center;
@@ -26,7 +29,7 @@ h2 {
   overflow: hidden;
   object-fit: cover;
   transform: rotate(5deg);
-  transition: var(--transition);
+  transition: 400ms ease-in-out;
 }
 .imgBx img:hover {
   z-index: 1;
