@@ -1,5 +1,6 @@
 import React from "react";
 import "./Jr.css";
+import Harold from "../../assets/Harold.pdf";
 
 function Jr() {
   return (
@@ -7,13 +8,7 @@ function Jr() {
       <a href="#Contacts" className="btn">
         Contact Me
       </a>
-      <a
-        href="https://drive.google.com/file/d/1xYZ3JJRXzctD6qj4_DhAFlLPXig5_2sJ/view"
-        download
-        target="_blank"
-        rel="noopener noreferrer"
-        className="btn"
-      >
+      <a href={Harold} download className="btn">
         Download CV
       </a>
     </div>
