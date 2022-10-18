@@ -59,14 +59,14 @@ const Contacts = () => {
             <BsWhatsapp />
             <h4>WhatsApp</h4>
             <a
-              href="https://api.whatsapp.com/send?phone+254711229823"
+              href="https://api.whatsapp.com/send?phone254711229823"
               target="blank"
             >
               Send a Message
             </a>
             <br />
             <a
-              href="https://api.whatsapp.com/send?phone+254718485502"
+              href="https://api.whatsapp.com/send?phone254718485502"
               target="blank"
             >
               Send a Message
