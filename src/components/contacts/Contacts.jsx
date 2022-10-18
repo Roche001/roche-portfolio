@@ -58,11 +58,17 @@ const Contacts = () => {
           <div className="contact-option">
             <BsWhatsapp />
             <h4>WhatsApp</h4>
-            <a href="https://wa.me/254711229823" target="blank">
+            <a
+              href="https://wa.me/254711229823?text=Hello%2C%20Thanks%20for%20contacting%20Roche%20Harold"
+              target="blank"
+            >
               Send a Message
             </a>
             <br />
-            <a href="https://wa.me/254718485502" target="blank">
+            <a
+              href="https://wa.me/254718485502?text=Hello%2C%20Thanks%20for%20contacting%20Roche%20Harold"
+              target="blank"
+            >
               Send a Message
             </a>
           </div>
