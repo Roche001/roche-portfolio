@@ -24,10 +24,11 @@ function portfolio() {
             <h4>Restaurant Website</h4>
             <div className="card-text-des">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
+                A Web application built with HTML,CSS, JavaScript and React to
+                enable customers easily book a table in the specific restaurant.
+                The web application also enables customers to purchase the
+                restaurant’s products online and the products delivered to their
+                door step.
               </p>
             </div>
             <h4>
@@ -67,10 +68,11 @@ function portfolio() {
             <h4>Logistics Website</h4>{" "}
             <div className="card-text-des">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
+                A Web application built with HTML,CSS, JavaScript and React to
+                enable various organizations and individual customers to
+                transport their products to their destination at ease. The web
+                application also offers customers the opportunity to track their
+                products while on transit.
               </p>
             </div>
             <h4>
@@ -110,10 +112,10 @@ function portfolio() {
             <h4>Real-Estate Website</h4>
             <div className="card-text-des">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
+                Web app built with React, to enable tenants easily find cheap
+                and affordable rental house and houses for purchase across the
+                globe. The site also enable landlords to easily market their
+                property to millions of potential customers around the world.
               </p>
             </div>
             <h4>
