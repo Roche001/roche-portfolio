@@ -12,7 +12,7 @@ function portfolio() {
       <div className="card-container ">
         <div className="ranch-card nopadding ">
           <div className="card-img">
-            <img src="./assets/long1(1).png" alt="Rhino Hill" />
+            <img src="./assets/Featured1.png" alt="Rhino Hill" />
           </div>
           <div className="card-text">
             <h4>Restaurant Website</h4>
@@ -42,7 +42,7 @@ function portfolio() {
           <div className="card-img">
             <img
               className="d-block w-100"
-              src="./assets/logistics(1).png"
+              src="./assets/Featured2.png"
               alt="Rhino Hill"
             />
           </div>
@@ -74,7 +74,7 @@ function portfolio() {
           <div className="card-img">
             <img
               className="d-block w-100"
-              src="./assets/rise.png"
+              src="./assets/Featured3.png"
               alt="Rhino Hill"
             />
           </div>
