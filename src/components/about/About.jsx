@@ -24,11 +24,14 @@ const About = () => {
           </article>
           <div className="decription">
             <p>
-              I am a web developer specialized in designing and constructing
-              responsive websites using technologies such as HTML,CSS and
-              JavaScript. I ensure that sites meet user expectations by ensuring
-              they look good, run smoothly and offer easy access points with no
-              loading issues between pages or error messages.
+              I am a Frontend web developer specialized in building responsive
+              websites using technologies such as HTML,CSS, Bootstrap,
+              JavaScript and Reactjs. I have the skills and knowledge needed to
+              build web applications with clean and intuitive user interfaces
+              your customers will love. I am also a team player who can work
+              with a cross functional team and work directly with designers and
+              product managers to create a seamless and interactive experience
+              that will make real time data collection fun and easy.
             </p>
           </div>
           <div className="col-md-6">

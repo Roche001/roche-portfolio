@@ -75,3 +75,7 @@ h2 {
   margin-top: 0.2rem;
   margin-bottom: 0.5rem;
 }
+.decription p {
+  font-size: 1.3rem;
+  font-weight: 500;
+}

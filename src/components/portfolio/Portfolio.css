@@ -35,7 +35,7 @@
   transition: 400ms ease-in-out;
 }
 .overlay:hover {
-  opacity: 0.2;
+  opacity: 0;
 }
 .card-text {
   display: flex;
