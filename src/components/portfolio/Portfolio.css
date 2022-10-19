@@ -1,17 +1,12 @@
 .ranch-card {
-  width: 22rem;
-  height: 35rem;
-  border: 2px solid #5d07e9;
   transition: 400ms ease-in-out;
   margin: 1rem;
-  border-radius: 0.5rem;
   overflow: hidden;
   transition: width 0.5s;
+  display: flex;
+  flex-direction: row;
 }
-.ranch-card:hover {
-  box-shadow: 0px 8px 30px #ffff;
-  border: none;
-}
+
 .card-img {
   width: 22rem;
   height: 25rem;
@@ -38,6 +33,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   padding: 1rem;
   margin-left: -1rem;
 }

@@ -21,7 +21,12 @@ html {
   --container-width-sn: 98%;
 }
 body {
-  background-image: url("././assets/website.png");
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.3),
+      #020c1b
+    ),
+    url("././assets/website.png");
   background-repeat: no-repeat;
   height: 100vh;
   background-attachment: fixed;
