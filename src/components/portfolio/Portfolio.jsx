@@ -114,9 +114,9 @@ function portfolio() {
               <p>
                 Web app built with React, to enable tenants and aspiring home
                 owners to easily find cheap and affordable houses, homes,
-                ranches and farms, across the globe. The site also enable
-                landlords to easily market their property to millions of
-                potential customers around the world.
+                ranches and farms,in various locations across the globe. The
+                site also enable landlords to easily market their property to
+                millions of potential customers around the world.
               </p>
             </div>
             <h4>
