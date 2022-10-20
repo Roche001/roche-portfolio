@@ -112,10 +112,11 @@ function portfolio() {
             <h4>Real-Estate Website</h4>
             <div className="card-text-des">
               <p>
-                Web app built with React, to enable tenants easily find cheap
-                and affordable rental house and houses for purchase across the
-                globe. The site also enable landlords to easily market their
-                property to millions of potential customers around the world.
+                Web app built with React, to enable tenants and aspiring home
+                owners to easily find cheap and affordable houses, homes,
+                ranches and farms, across the globe. The site also enable
+                landlords to easily market their property to millions of
+                potential customers around the world.
               </p>
             </div>
             <h4>
