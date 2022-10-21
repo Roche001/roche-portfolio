@@ -59,6 +59,7 @@
 .card-text-des {
   background: #020c1b;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   border-radius: 0.5rem;
@@ -69,6 +70,7 @@
   font-size: 1rem;
   font-weight: 300;
 }
+
 @media screen and (max-width: 600px) {
   .ranch-card {
     width: 95%;

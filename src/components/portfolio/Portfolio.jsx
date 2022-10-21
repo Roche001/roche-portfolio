@@ -23,6 +23,8 @@ function portfolio() {
             <h5>Featured Project</h5>
             <h4>Restaurant Website</h4>
             <div className="card-text-des">
+              {" "}
+              <h5>Major Features</h5>
               <p>
                 A Web application built with HTML,CSS, JavaScript and React to
                 enable customers easily book a table in the specific restaurant.
@@ -67,6 +69,8 @@ function portfolio() {
             <h5>Featured Project</h5>
             <h4>Logistics Website</h4>{" "}
             <div className="card-text-des">
+              {" "}
+              <h5>Major Features</h5>
               <p>
                 A Web application built with HTML,CSS, JavaScript and React to
                 enable various organizations and individual customers to
@@ -111,13 +115,13 @@ function portfolio() {
             <h5>Featured Project</h5>
             <h4>Real-Estate Website</h4>
             <div className="card-text-des">
-              <p>
-                Web app built with React, to enable tenants and aspiring home
-                owners to easily find cheap and affordable houses, homes,
-                ranches and farms,in various locations across the globe. The
-                site also enable landlords to easily market their property to
-                millions of potential customers around the world.
-              </p>
+              <h5>Major Features</h5>
+              This web application enables users to find a property by entering
+              its address into a search field or using a map, more details are
+              available, including the cost, the number of rooms, the
+              construction date, and the rental price and homeowners, brokers,
+              agents and landlords can list their property for sale and make it
+              widely known.
             </div>
             <h4>
               <a
