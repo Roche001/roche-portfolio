@@ -12,20 +12,6 @@ function Footer() {
       <div className="footer">
         <div className="social">
           <a
-            href="https://www.instagram.com/roche_harold/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <AiOutlineInstagram />
-          </a>
-          <a
-            href="https://www.facebook.com/profile.php?id=100006045915802"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <RiFacebookCircleFill />
-          </a>
-          <a
             href="https://twitter.com/RocheHarold2"
             target="_blank"
             rel="noopener noreferrer"
