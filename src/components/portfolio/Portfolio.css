@@ -6,7 +6,7 @@
   justify-content: center;
 }
 .ranch-card {
-  width: 60vw;
+  width: 70vw;
   margin-top: 2rem;
   display: flex;
   flex-direction: row;
@@ -88,11 +88,8 @@
     height: 100%;
   }
 }
-/* @media screen and (min-width: 1200px) {
-  .card-img {
-    width: 60%;
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+  .ranch-card {
+    width: 95vw;
   }
-  .card-text {
-    width: 35%;
-  }
-} */
+}
