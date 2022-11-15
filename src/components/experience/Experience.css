@@ -12,10 +12,12 @@
   transition: width 0.5s;
   transition-timing-function: linear;
   margin: 1rem;
+  border: #6c7a7c solid 1px;
 }
 .front-end-card:hover {
   width: 350px;
   background: #00ffff;
+  border: #020c1b 1px solid;
   color: #020c1b;
   box-shadow: none;
 }
