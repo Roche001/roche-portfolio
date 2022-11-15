@@ -15,51 +15,6 @@ function portfolio() {
             <div className="overlay"></div>
             <img
               className="d-block w-100"
-              src="./assets/Featured1.png"
-              alt="Rhino Hill"
-            />
-          </div>
-          <div className="card-text">
-            <h5>Featured Project</h5>
-            <h4>Restaurant Website</h4>
-            <div className="card-text-des">
-              {" "}
-              <h5>Major Features</h5>
-              <p>
-                A Web application built with HTML,CSS, JavaScript and React to
-                enable customers easily book a table in the specific restaurant.
-                The web application also enables customers to purchase the
-                restaurant’s products online and the products delivered to their
-                door step.
-              </p>
-            </div>
-            <h4>
-              <a
-                href="https://github.com/Roche001/Rhino-Hill-Restaurant.git"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {" "}
-                <AiFillGithub /> Github
-              </a>
-            </h4>
-            <h4>
-              {" "}
-              <a
-                href="https://rhinohillrestaurant.netlify.app/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <IoIosShareAlt /> Live Demo
-              </a>
-            </h4>
-          </div>
-        </div>
-        <div className="ranch-card nopadding ">
-          <div className="card-img">
-            <div className="overlay"></div>
-            <img
-              className="d-block w-100"
               src="./assets/Featured2.png"
               alt="Rhino Hill"
             />
@@ -93,6 +48,51 @@ function portfolio() {
               {" "}
               <a
                 href="https://andelleslogistics.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <IoIosShareAlt /> Live Demo
+              </a>
+            </h4>
+          </div>
+        </div>
+        <div className="ranch-card nopadding ">
+          <div className="card-img">
+            <div className="overlay"></div>
+            <img
+              className="d-block w-100"
+              src="./assets/Featured1.png"
+              alt="Rhino Hill"
+            />
+          </div>
+          <div className="card-text">
+            <h5>Featured Project</h5>
+            <h4>Restaurant Website</h4>
+            <div className="card-text-des">
+              {" "}
+              <h5>Major Features</h5>
+              <p>
+                A Web application built with HTML,CSS, JavaScript and React to
+                enable customers easily book a table in the specific restaurant.
+                The web application also enables customers to purchase the
+                restaurant’s products online and the products delivered to their
+                door step.
+              </p>
+            </div>
+            <h4>
+              <a
+                href="https://github.com/Roche001/Rhino-Hill-Restaurant.git"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {" "}
+                <AiFillGithub /> Github
+              </a>
+            </h4>
+            <h4>
+              {" "}
+              <a
+                href="https://rhinohillrestaurant.netlify.app/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
