@@ -25,7 +25,7 @@ function Top() {
           </div>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
-        <Navbar.Collapse id="navbarScroll">
+        <Navbar.Collapse id="navbarScroll" className="nav">
           <Form className="d-flex">
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="me-auto">
