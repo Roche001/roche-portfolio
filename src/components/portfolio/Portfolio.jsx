@@ -102,14 +102,22 @@ function portfolio() {
           </div>
         </div>
         <div className="ranch-card nopadding ">
+          {" "}
           <div className="card-img">
-            <div className="overlay"></div>
-            <img
-              className="d-block w-100"
-              src="./assets/index1.png"
-              alt="Rhino Hill"
-            />
-          </div>
+            {" "}
+            <a
+              href="https://high-rise.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {" "}
+              <img
+                className="d-block w-100"
+                src="./assets/index1.png"
+                alt="Rhino Hill"
+              />
+            </a>
+          </div>{" "}
           <div className="card-text">
             {" "}
             <h5>Featured Project</h5>
