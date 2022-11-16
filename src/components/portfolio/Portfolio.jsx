@@ -12,12 +12,17 @@ function portfolio() {
       <div className="card-container ">
         <div className="ranch-card nopadding ">
           <div className="card-img">
-            <div className="overlay"></div>
-            <img
-              className="d-block w-100"
-              src="./assets/index3.png"
-              alt="Rhino Hill"
-            />
+            <a
+              href="https://andelleslogistics.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className="d-block w-100"
+                src="./assets/index3.png"
+                alt="Rhino Hill"
+              />
+            </a>
           </div>
           <div className="card-text">
             {" "}
@@ -45,7 +50,6 @@ function portfolio() {
               </a>
             </h4>
             <h4>
-              {" "}
               <a
                 href="https://andelleslogistics.netlify.app/"
                 target="_blank"
@@ -58,12 +62,18 @@ function portfolio() {
         </div>
         <div className="ranch-card nopadding ">
           <div className="card-img">
-            <div className="overlay"></div>
-            <img
-              className="d-block w-100"
-              src="./assets/index2.png"
-              alt="Rhino Hill"
-            />
+            {" "}
+            <a
+              href="https://rhinohillrestaurant.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className="d-block w-100"
+                src="./assets/index2.png"
+                alt="Rhino Hill"
+              />
+            </a>
           </div>
           <div className="card-text">
             <h5>Featured Project</h5>
