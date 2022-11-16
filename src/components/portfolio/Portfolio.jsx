@@ -15,7 +15,7 @@ function portfolio() {
             <div className="overlay"></div>
             <img
               className="d-block w-100"
-              src="./assets/Featured2.png"
+              src="./assets/index3.png"
               alt="Rhino Hill"
             />
           </div>
@@ -61,7 +61,7 @@ function portfolio() {
             <div className="overlay"></div>
             <img
               className="d-block w-100"
-              src="./assets/Featured1.png"
+              src="./assets/index2.png"
               alt="Rhino Hill"
             />
           </div>
@@ -106,7 +106,7 @@ function portfolio() {
             <div className="overlay"></div>
             <img
               className="d-block w-100"
-              src="./assets/Featured3.png"
+              src="./assets/index1.png"
               alt="Rhino Hill"
             />
           </div>

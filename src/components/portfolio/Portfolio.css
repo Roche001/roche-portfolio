@@ -7,19 +7,19 @@
 }
 .ranch-card {
   width: 70vw;
-  margin-top: 2rem;
+  margin-top: 3rem;
   display: flex;
   flex-direction: row;
   cursor: pointer;
-  border: #5d6c6d solid 0.5px;
+
   border-radius: 0.5rem;
   overflow: hidden;
-  box-shadow: 0px 8px 30px #6c7a7c;
 }
 .card-img {
   width: 50vw;
   position: relative;
   cursor: pointer;
+  overflow: hidden;
 }
 .card-img img {
   width: 100%;
@@ -31,12 +31,12 @@
   left: 0;
   right: 0;
   bottom: 0;
-  opacity: 0.5;
+  opacity: 0;
   background: #020c1b;
   transition: 400ms ease-in-out;
 }
 .overlay:hover {
-  opacity: 0;
+  opacity: 0.5;
 }
 .card-text {
   width: 50vw;
