@@ -1,8 +1,11 @@
 header {
-  height: 100vh;
-  padding-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 70vh;
   overflow: hidden;
-  max-width: 100%;
 }
 .header_container {
   display: flex;
@@ -10,17 +13,14 @@ header {
   justify-content: center;
   align-items: center;
   text-align: center;
-  height: 100%;
   position: relative;
-  margin-top: -5rem;
 }
 
 .main img {
   max-width: 100%;
 }
 .main {
-  background-image: linear-gradient(to bottom, rgba(37, 34, 34, 0.5), #020c1b),
-    url("../../assets/Roche.jpg");
+  /* background-image: linear-gradient(to bottom, rgba(37, 34, 34, 0.5), #020c1b); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

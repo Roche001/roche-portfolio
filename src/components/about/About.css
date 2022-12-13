@@ -1,11 +1,13 @@
 .about {
-  margin-top: 6rem;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 h2 {
   text-align: center;
+}
+.text h2 {
+  margin-bottom: 2rem;
 }
 
 .imgBx {
