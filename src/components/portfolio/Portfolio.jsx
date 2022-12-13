@@ -28,6 +28,20 @@ function portfolio() {
             {" "}
             <h5>Featured Project</h5>
             <h4>Logistics Website</h4>{" "}
+            <div className="tools">
+              <div className="tools-img">
+                <img src="./assets/icon1.png" alt="icon" />
+              </div>
+              <div className="tools-img">
+                <img src="./assets/icon2.png" alt="icon" />
+              </div>
+              <div className="tools-img">
+                <img src="./assets/icon4.png" alt="icon" />
+              </div>
+              <div className="tools-img">
+                <img src="./assets/icon7.png" alt="icon" />
+              </div>
+            </div>
             <div className="card-text-des">
               {" "}
               <h5>Major Features</h5>
@@ -77,7 +91,21 @@ function portfolio() {
           </div>
           <div className="card-text">
             <h5>Featured Project</h5>
-            <h4>Restaurant Website</h4>
+            <h4>Restaurant Website</h4>{" "}
+            <div className="tools">
+              <div className="tools-img">
+                <img src="./assets/icon1.png" alt="icon" />
+              </div>
+              <div className="tools-img">
+                <img src="./assets/icon2.png" alt="icon" />
+              </div>
+              <div className="tools-img">
+                <img src="./assets/icon4.png" alt="icon" />
+              </div>
+              <div className="tools-img">
+                <img src="./assets/icon7.png" alt="icon" />
+              </div>
+            </div>
             <div className="card-text-des">
               {" "}
               <h5>Major Features</h5>
@@ -132,6 +160,20 @@ function portfolio() {
             {" "}
             <h5>Featured Project</h5>
             <h4>Real-Estate Website</h4>
+            <div className="tools">
+              <div className="tools-img">
+                <img src="./assets/icon1.png" alt="icon" />
+              </div>
+              <div className="tools-img">
+                <img src="./assets/icon2.png" alt="icon" />
+              </div>
+              <div className="tools-img">
+                <img src="./assets/icon4.png" alt="icon" />
+              </div>
+              <div className="tools-img">
+                <img src="./assets/icon7.png" alt="icon" />
+              </div>
+            </div>
             <div className="card-text-des">
               <h5>Major Features</h5>
               This web application enables users to find a property by entering
