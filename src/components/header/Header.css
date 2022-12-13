@@ -4,7 +4,7 @@ header {
   justify-content: center;
   align-items: center;
   text-align: center;
-  height: 70vh;
+  height: 100vh;
   overflow: hidden;
 }
 .header_container {
@@ -20,7 +20,7 @@ header {
   max-width: 100%;
 }
 .main {
-  /* background-image: linear-gradient(to bottom, rgba(37, 34, 34, 0.5), #020c1b); */
+  background-image: linear-gradient(to bottom, rgba(37, 34, 34, 0.5), #020c1b);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
