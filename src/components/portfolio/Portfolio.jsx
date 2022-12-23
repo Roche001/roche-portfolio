@@ -144,7 +144,7 @@ function portfolio() {
           <div className="card-img">
             {" "}
             <a
-              href="https://high-rise.netlify.app/"
+              href="https://homepeak.netlify.app/"
               target="_blank"
               rel="noopener noreferrer"
             >
