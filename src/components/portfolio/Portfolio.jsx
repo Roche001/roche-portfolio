@@ -185,7 +185,7 @@ function portfolio() {
             </div>
             <h4>
               <a
-                href="https://github.com/Roche001/high-rise.git"
+                href="https://github.com/Roche001/homepeak.git"
                 target="_blank"
                 rel="noopener noreferrer"
               >
