@@ -31,8 +31,9 @@
   font-size: 0.9rem;
 }
 .contact-option {
+  background: #bc6b05;
   width: 20rem;
-  background-color: #f2b76e;
+  border: #f2b76e 1px solid;
   border-radius: 1.2rem;
   text-align: center;
   border: 1px solid transparent;
@@ -69,7 +70,7 @@ form {
   height: 3rem;
   background: transparent;
   color: #d6f5fa;
-  border-color: #f2b76e;
+  border-color: #bc6b05;
   margin-top: 20px;
   cursor: pointer;
 }
@@ -81,7 +82,7 @@ textarea {
   border-radius: 0.5rem;
   background-color: transparent;
   color: #d6f5fa;
-  border: 2px solid #f2b76e;
+  border: 2px solid #bc6b05;
 }
 .row {
   display: flex;

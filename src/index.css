@@ -21,11 +21,12 @@ html {
   --container-width-sn: 98%;
 }
 body {
-  background-image: url("././assets/website.png");
+  background-image: url("././assets/light.jpeg");
   background-repeat: no-repeat;
   height: 100vh;
   background-attachment: fixed;
   background-size: cover;
+  background-position: center;
   color: #d6f5fa;
   font-family: "Asap", sans-serif;
   line-height: 1.7;
@@ -51,7 +52,7 @@ section {
   margin-bottom: 2rem;
 }
 a {
-  color: #f2b76e;
+  color: #bc6b05;
   transition: var(--transition);
 }
 a:hover {

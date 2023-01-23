@@ -12,7 +12,7 @@ h2 {
 
 .imgBx {
   cursor: pointer;
-  background-color: #f2b76e;
+  background-color: #bc6b05;
   height: 100%;
   width: 100%;
   display: flex;
@@ -27,7 +27,7 @@ h2 {
 .imgBx img {
   border-radius: 2rem;
   border: solid;
-  border-color: #f2b76e solid;
+  border-color: #bc6b05 solid;
   overflow: hidden;
   object-fit: cover;
   transform: rotate(5deg);
@@ -57,7 +57,7 @@ h2 {
 
   height: 6rem;
   color: #020c1b;
-  background-color: #f2b76e;
+  background-color: #bc6b05;
   overflow: hidden;
   font-size: 16px;
   cursor: pointer;
