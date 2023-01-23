@@ -30,3 +30,8 @@ header {
 .jr {
   margin-top: 2.5rem;
 }
+@media screen and (max-width: 600px) {
+  .header {
+    height: 60vh;
+  }
+}
