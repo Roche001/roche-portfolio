@@ -32,7 +32,7 @@
 }
 .contact-option {
   width: 20rem;
-  background-color: #0ffff7;
+  background-color: #f2b76e;
   border-radius: 1.2rem;
   text-align: center;
   border: 1px solid transparent;
@@ -69,7 +69,7 @@ form {
   height: 3rem;
   background: transparent;
   color: #d6f5fa;
-  border-color: #00ffff;
+  border-color: #f2b76e;
   margin-top: 20px;
   cursor: pointer;
 }
@@ -81,7 +81,7 @@ textarea {
   border-radius: 0.5rem;
   background-color: transparent;
   color: #d6f5fa;
-  border: 2px solid;
+  border: 2px solid #f2b76e;
 }
 .row {
   display: flex;

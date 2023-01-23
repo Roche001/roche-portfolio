@@ -51,7 +51,7 @@ section {
   margin-bottom: 2rem;
 }
 a {
-  color: #00ffff;
+  color: #f2b76e;
   transition: var(--transition);
 }
 a:hover {
@@ -65,7 +65,7 @@ a:hover {
   padding: 0.75rem 1rem;
   border-radius: 0.5rem;
   cursor: pointer;
-  border: 1px solid #00ffff;
+  border: 1px solid #f2b76e;
   transition: var(--transition);
   font-weight: 700;
 }
