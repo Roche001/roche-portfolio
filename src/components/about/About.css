@@ -32,6 +32,8 @@ h2 {
   object-fit: cover;
   transform: rotate(5deg);
   transition: 400ms ease-in-out;
+  height: 100%;
+  width: 100%;
 }
 .imgBx img:hover {
   z-index: 1;
