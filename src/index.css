@@ -63,6 +63,7 @@ a:hover {
 
 .btn {
   width: max-content;
+  height: 100%;
   display: inline-block;
   color: #d6f5fa;
   padding: 0.75rem 1rem;
@@ -73,6 +74,7 @@ a:hover {
   font-weight: 700;
 }
 .btn:hover {
-  background-color: rgb(58, 86, 87);
-  color: #5d07e9;
+  background-color: #bc6b05;
+  color: #020c1b;
+  border: #ffffff solid 1px;
 }
