@@ -30,10 +30,13 @@
 }
 .menu-one h6 {
   font-weight: 400;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-family: "Lobster", cursive;
   transition: 400ms ease-in-out;
 }
 .menu-one h6:hover {
   color: #bc6b05;
+}
+.top-icon {
+  display: none;
 }
