@@ -1,21 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 .navbar {
-  position: fixed;
-  width: 100%;
-  z-index: 1000;
   display: flex;
-  flex-direction: row;
+  justify-content: space-around;
   align-items: center;
-  justify-content: space-between;
-  background: #020c1b;
+  height: 6rem;
+  width: 100vw;
+  position: fixed;
+  background: transparent;
+  z-index: 1000;
 }
-.me-auto {
-  margin-top: -3rem;
+.logo {
   display: flex;
-  flex-direction: column;
-}
-.nav {
-  display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
+  height: 4.5rem;
+}
+.logo img {
+  height: 100%;
+  width: 100%;
+}
+.nav-elements {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu-one {
+  padding: 1rem;
+}
+.menu-one h6 {
+  font-weight: 400;
+  font-size: 1.5rem;
+  font-family: "Lobster", cursive;
 }

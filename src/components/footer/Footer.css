@@ -1,25 +1,26 @@
 .footer {
-  background-color: #bc6b05;
-  color: #020c1b;
+  background: transparent;
+  color: #ffffff;
 }
 .social {
+  width: 100vw;
+
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
   transition: 400ms ease-in-out;
 }
-.social:hover {
-  transform: scale(1.2);
-}
+
 .social a {
-  color: #020c1b;
-  font-size: 1.2rem;
+  color: #ffffff;
   font-weight: 400;
-  margin: 0.8rem;
   transition: 400ms;
+  padding: 1rem;
+  font-size: large;
 }
 .social a :hover {
-  color: #5d07e9;
+  color: #bc6b05;
   cursor: pointer;
 }
 
