@@ -75,7 +75,7 @@ a:hover {
   border-radius: 0.5rem;
   cursor: pointer;
   border: 1px solid #f2b76e;
-  transition: var(--transition);
+  transition: 600ms ease-in-out;
   font-weight: 700;
 }
 .btn:hover {

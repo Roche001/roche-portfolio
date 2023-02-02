@@ -26,9 +26,14 @@
 }
 .menu-one {
   padding: 1rem;
+  cursor: progress;
 }
 .menu-one h6 {
   font-weight: 400;
   font-size: 1.5rem;
   font-family: "Lobster", cursive;
+  transition: 400ms ease-in-out;
+}
+.menu-one h6:hover {
+  color: #bc6b05;
 }
