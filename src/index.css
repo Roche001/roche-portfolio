@@ -24,10 +24,10 @@ html {
 body {
   background-image: url("././assets/bilder.jpeg");
 
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   height: 100vh;
   background-attachment: fixed;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   color: #d6f5fa;
   font-family: "Asap", sans-serif;
