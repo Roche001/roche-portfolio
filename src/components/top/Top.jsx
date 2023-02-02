@@ -17,7 +17,7 @@ function Top() {
         <Navbar.Brand href="#Header">
           <div className="img">
             <img
-              src="./assets/logo6.png"
+              src="./assets/touch.png"
               alt="logo"
               width="50px"
               height="50px"

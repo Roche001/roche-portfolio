@@ -28,12 +28,9 @@ h2 {
   border-radius: 2rem;
   border: solid;
   border-color: #bc6b05 solid;
-  overflow: hidden;
   object-fit: cover;
   transform: rotate(5deg);
   transition: 400ms ease-in-out;
-  height: 100%;
-  width: 100%;
 }
 .imgBx img:hover {
   z-index: 1;

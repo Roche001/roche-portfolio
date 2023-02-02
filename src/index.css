@@ -22,7 +22,8 @@ html {
   --container-width-sn: 98%;
 }
 body {
-  background-image: url("././assets/light.jpeg");
+  background-image: url("././assets/bilder.jpeg");
+
   background-repeat: no-repeat;
   height: 100vh;
   background-attachment: fixed;
