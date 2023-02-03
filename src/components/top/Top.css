@@ -8,12 +8,13 @@
   position: fixed;
   background: transparent;
   z-index: 1000;
+  opacity: 0.7;
 }
 .logo {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 4.5rem;
+  height: 6rem;
 }
 .logo img {
   height: 100%;
@@ -25,7 +26,7 @@
   justify-content: center;
 }
 .menu-one {
-  padding: 1rem;
+  padding-left: 0.8rem;
   cursor: progress;
 }
 .menu-one h6 {
@@ -39,4 +40,19 @@
 }
 .top-icon {
   display: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar {
+    position: fixed;
+  }
+  .nav-elements {
+    display: flex;
+    flex-direction: column;
+    display: none;
+  }
+  .top-icon {
+    display: block;
+  }
 }
