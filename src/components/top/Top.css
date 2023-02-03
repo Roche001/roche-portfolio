@@ -2,13 +2,11 @@
 .navbar {
   display: flex;
   justify-content: space-around;
-  align-items: center;
-  height: 6rem;
+  align-items: flex-start;
   width: 100vw;
   position: fixed;
   background: transparent;
   z-index: 1000;
-  opacity: 0.7;
 }
 .logo a {
   display: flex;
@@ -24,6 +22,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: 2.5rem;
 }
 .menu-one {
   padding-left: 0.8rem;
@@ -45,16 +44,29 @@
 .top-icon {
   display: none;
   cursor: pointer;
+  margin-top: 1.2rem;
 }
 
 @media screen and (max-width: 600px) {
   .navbar {
     position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    background: #020c1b;
   }
   .nav-elements {
-    display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
+    height: 40vh;
+    background: #020c1b;
+    width: 100vw;
+    right: 0;
     display: none;
+  }
+  .menu-one a h6 {
+    padding-top: 1rem;
   }
   .top-icon {
     display: block;

@@ -4,26 +4,11 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { bar } from "../../nav";
 
 const Top = () => {
-  const [navbarColor, setNavbarColor] = useState("transparent");
-  useEffect(() => {
-    function handleScroll() {
-      if (window.pageYOffset >= 100) {
-        setNavbarColor("#37474f");
-      } else {
-        setNavbarColor("transparent");
-      }
-    }
-
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
   return (
-    <div className="navbar" style={{ backgroundColor: navbarColor }}>
+    <div className="navbar">
       <div className="logo">
         <a href="#Header">
-          <img src="././assets/touch.png" alt="logo" />
+          <img src="././assets/touch.png" alt="logo" loading="lazy" />
         </a>
       </div>
       <div className="top-icon">
