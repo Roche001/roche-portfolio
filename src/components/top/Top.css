@@ -10,11 +10,11 @@
   z-index: 1000;
   opacity: 0.7;
 }
-.logo {
+.logo a {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 6rem;
+  height: 5rem;
 }
 .logo img {
   height: 100%;
@@ -37,6 +37,10 @@
 }
 .menu-one h6:hover {
   color: #bc6b05;
+}
+.menu-one a {
+  color: #ffffff;
+  text-decoration: none;
 }
 .top-icon {
   display: none;
