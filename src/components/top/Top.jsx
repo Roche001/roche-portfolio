@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "./Top.css";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { bar } from "../../nav";
