@@ -22,8 +22,9 @@ const Top = () => {
   return (
     <div className="navbar" style={{ backgroundColor: navbarColor }}>
       <div className="logo">
-        {" "}
-        <img src="././assets/touch.png" alt="logo" />
+        <a href="#Header">
+          <img src="././assets/touch.png" alt="logo" />
+        </a>
       </div>
       <div className="top-icon">
         <h4>
