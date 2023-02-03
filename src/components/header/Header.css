@@ -14,7 +14,7 @@ header {
   align-items: center;
   text-align: center;
   position: relative;
-  margin-top: -2rem;
+  height: 100%;
 }
 
 .main {

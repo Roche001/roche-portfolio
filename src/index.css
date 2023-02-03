@@ -68,10 +68,13 @@ a:hover {
 
 .btn {
   width: max-content;
-  height: 100%;
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   color: #d6f5fa;
-  padding: 0.75rem 1rem;
+  height: 4rem;
+  width: 8rem;
   border-radius: 0.5rem;
   cursor: pointer;
   border: 1px solid #f2b76e;
