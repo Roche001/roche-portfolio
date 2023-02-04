@@ -1,9 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Top.css";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { bar } from "../../nav";
 
 const Top = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+  const handleClick = () => {
+    toggleMenu();
+  };
   return (
     <div className="navbar">
       <div className="logo">
@@ -11,12 +18,12 @@ const Top = () => {
           <img src="././assets/touch.png" alt="logo" loading="lazy" />
         </a>
       </div>
-      <div className="top-icon">
+      <div className="top-icon onClick={toggleMenu}">
         <h4>
           <GiHamburgerMenu />
         </h4>
       </div>
-      <div className="nav-elements">
+      <div className={menuOpen ? "menu-items" : "nav-elements"}>
         {bar.map((bar, index) => {
           return (
             <div key={index} className="menu-one">

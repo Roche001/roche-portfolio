@@ -46,7 +46,11 @@
   cursor: pointer;
   margin-top: 1.2rem;
 }
-
+.menu-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 @media screen and (max-width: 600px) {
   .navbar {
     position: fixed;
@@ -64,6 +68,9 @@
     width: 100vw;
     right: 0;
     display: none;
+  }
+  .menu-items {
+    display: flex;
   }
   .menu-one a h6 {
     padding-top: 1rem;
