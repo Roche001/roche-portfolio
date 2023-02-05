@@ -9,35 +9,15 @@ h2 {
 .text h2 {
   margin: 2rem;
 }
-
-.imgBx {
-  cursor: pointer;
-  background-color: #bc6b05;
-  height: 100%;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 2rem;
-}
 .box {
-  margin-bottom: 4rem;
+  overflow: hidden;
+  border: solid 2px #bc6b05;
+  border-radius: 4rem 0.3rem;
+  cursor: pointer;
 }
-
-.imgBx img {
-  border-radius: 2rem;
-  border: solid;
-  border-color: #bc6b05 solid;
-  object-fit: cover;
-  transform: rotate(5deg);
-  transition: 400ms ease-in-out;
-}
-.imgBx img:hover {
-  z-index: 1;
-  color: #5d07e9;
-  transform: scale(1.05);
-  box-shadow: 0 25px 40px rgb(58, 86, 87);
-  transform: rotate(10);
+.box img {
+  border-radius: 4rem 0.3rem;
+  padding: 0.2rem;
 }
 .text {
   display: flex;

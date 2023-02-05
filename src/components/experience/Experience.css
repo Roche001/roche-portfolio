@@ -13,6 +13,7 @@
   transition-timing-function: linear;
   margin: 1rem;
   border: #6c7a7c solid 1px;
+  cursor: pointer;
 }
 .front-end-card:hover {
   width: 350px;
