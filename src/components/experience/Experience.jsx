@@ -1,7 +1,6 @@
 import React from "react";
 import "./Experience.css";
 import { BsBraces } from "react-icons/bs";
-import { card } from "../../nav";
 
 const Experience = () => {
   return (
