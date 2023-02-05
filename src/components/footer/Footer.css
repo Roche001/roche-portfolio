@@ -17,7 +17,8 @@
   font-weight: 400;
   transition: 400ms;
   padding: 1rem;
-  font-size: large;
+  height: 1rem;
+  width: 1rem;
 }
 .social a :hover {
   color: #bc6b05;

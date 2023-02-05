@@ -8,27 +8,35 @@ function Footer() {
     <div id="Footer">
       <div className="footer">
         <div className="social">
-          <a
-            href="https://twitter.com/RocheHarold2"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <AiFillTwitterCircle />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/roche-harold-3b3aba141/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <BsLinkedin />
-          </a>
-          <a
-            href="https://github.com/Roche001"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <BsGithub />
-          </a>
+          <h3>
+            {" "}
+            <a
+              href="https://twitter.com/RocheHarold2"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <AiFillTwitterCircle />
+            </a>
+          </h3>
+          <h4>
+            <a
+              href="https://www.linkedin.com/in/roche-harold-3b3aba141/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <BsLinkedin />
+            </a>
+          </h4>
+          <h4>
+            {" "}
+            <a
+              href="https://github.com/Roche001"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <BsGithub />
+            </a>
+          </h4>
         </div>
         <div className="copy">
           <small>Designed & Built by Roche Harold</small>
