@@ -41,8 +41,9 @@
   transition: var(--transition);
 }
 .contact-option a {
-  color: #5d07e9;
+  color: #020c1b;
   margin-bottom: 1rem;
+  font-size: 1rem;
 }
 
 .contact-option:hover {

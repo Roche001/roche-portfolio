@@ -8,7 +8,7 @@ function Footer() {
     <div id="Footer">
       <div className="footer">
         <div className="social">
-          <h3>
+          <h5>
             {" "}
             <a
               href="https://twitter.com/RocheHarold2"
@@ -17,8 +17,8 @@ function Footer() {
             >
               <AiFillTwitterCircle />
             </a>
-          </h3>
-          <h4>
+          </h5>
+          <h6>
             <a
               href="https://www.linkedin.com/in/roche-harold-3b3aba141/"
               target="_blank"
@@ -26,8 +26,8 @@ function Footer() {
             >
               <BsLinkedin />
             </a>
-          </h4>
-          <h4>
+          </h6>
+          <h6>
             {" "}
             <a
               href="https://github.com/Roche001"
@@ -36,7 +36,7 @@ function Footer() {
             >
               <BsGithub />
             </a>
-          </h4>
+          </h6>
         </div>
         <div className="copy">
           <small>Designed & Built by Roche Harold</small>

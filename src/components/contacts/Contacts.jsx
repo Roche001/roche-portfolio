@@ -36,7 +36,7 @@ const Contacts = () => {
       </div>
       <div className="contact container">
         <div className="contact-options">
-          <div class="contact-option">
+          <div className="contact-option">
             <MdMail />
             <h4>Email</h4>
             <h5>rocheharold13@gmail.com</h5>
