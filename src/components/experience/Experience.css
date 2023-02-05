@@ -16,7 +16,7 @@
 }
 .front-end-card:hover {
   width: 350px;
-  background: #00ffff;
+  background: #bc6b05;
   border: #020c1b 1px solid;
   color: #020c1b;
   box-shadow: none;
@@ -32,11 +32,16 @@
 .front-container h3 {
   text-align: center;
 }
-.front-end {
+/* .front-end {
+  width: 40vw;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
-}
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  grid-gap: 0.5rem;
+} */
 @media screen and (max-width: 600px) {
   .front-end-card {
     width: 95%;
