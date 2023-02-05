@@ -1,7 +1,6 @@
 import React from "react";
 import "./Footer.css";
 import { AiFillTwitterCircle } from "react-icons/ai";
-import { AiOutlineCopyrightCircle } from "react-icons/ai";
 import { BsLinkedin } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
 function Footer() {
@@ -32,11 +31,7 @@ function Footer() {
           </a>
         </div>
         <div className="copy">
-          <small>
-            {" "}
-            Roche Harold.
-            <AiOutlineCopyrightCircle /> 2022 Some Rights Reserved
-          </small>
+          <small>Designed & Built by Roche Harold</small>
         </div>
       </div>
     </div>
