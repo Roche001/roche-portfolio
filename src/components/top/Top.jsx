@@ -8,9 +8,9 @@ const Top = () => {
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
-  const handleClick = () => {
-    toggleMenu();
-  };
+  // const handleClick = () => {
+  //   toggleMenu();
+  // };
   return (
     <div className="navbar">
       <div className="logo">
