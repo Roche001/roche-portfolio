@@ -1,16 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Top.css";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { bar } from "../../nav";
 
 const Top = () => {
-  const [menuOpen, setMenuOpen] = useState(false);
-  const toggleMenu = () => {
-    setMenuOpen(!menuOpen);
-  };
-  // const handleClick = () => {
-  //   toggleMenu();
-  // };
   return (
     <div className="navbar">
       <div className="logo">
@@ -23,7 +16,7 @@ const Top = () => {
           <GiHamburgerMenu />
         </h4>
       </div>
-      <div className={menuOpen ? "menu-items" : "nav-elements"}>
+      <div className="nav-elements">
         {bar.map((bar, index) => {
           return (
             <div key={index} className="menu-one">
