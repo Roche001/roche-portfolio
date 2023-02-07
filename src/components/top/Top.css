@@ -41,6 +41,9 @@
   color: #ffffff;
   text-decoration: none;
 }
+.menu-one a:hover {
+  color: #bc6b05;
+}
 .top-icon {
   display: none;
   cursor: pointer;
@@ -50,6 +53,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.side-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2.5rem;
 }
 @media screen and (max-width: 600px) {
   .navbar {
@@ -66,14 +75,24 @@
     height: 30vh;
     background: #020c1b;
     width: 100vw;
-
-    /* display: none; */
+    display: none;
   }
   .menu-items {
     display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .top-icon {
     display: block;
+  }
+  .side-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 30vh;
+    background: #020c1b;
+    width: 100vw;
   }
 }
