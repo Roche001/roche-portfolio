@@ -61,7 +61,7 @@
   }
   .nav-elements {
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: column;
     height: 30vh;
     background: #020c1b;
@@ -72,9 +72,7 @@
   .menu-items {
     display: flex;
   }
-  .menu-one a h6 {
-    padding-top: 1rem;
-  }
+
   .top-icon {
     display: block;
   }
