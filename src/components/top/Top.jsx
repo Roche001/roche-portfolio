@@ -4,7 +4,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { bar } from "../../nav";
 
 const Top = () => {
-  const [menuOpen, setMenuOpen] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(true);
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
@@ -18,6 +18,7 @@ const Top = () => {
           <img src="././assets/touch.png" alt="logo" loading="lazy" />
         </a>
       </div>
+
       <div className="top-icon" onClick={toggleMenu}>
         <h4>
           <GiHamburgerMenu />
