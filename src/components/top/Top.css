@@ -63,11 +63,11 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 40vh;
+    height: 30vh;
     background: #020c1b;
     width: 100vw;
     right: 0;
-    display: none;
+    /* display: none; */
   }
   .menu-items {
     display: flex;
