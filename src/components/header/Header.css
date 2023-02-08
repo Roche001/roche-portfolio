@@ -47,7 +47,7 @@ header {
 }
 @media screen and (max-width: 600px) {
   .more {
-    bottom: 4rem;
+    bottom: 5rem;
     margin-left: -1rem;
   }
 }
