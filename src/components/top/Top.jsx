@@ -11,6 +11,7 @@ const Top = () => {
   const handleClick = () => {
     toggleMenu();
   };
+
   return (
     <div className="navbar">
       <div className="logo">
