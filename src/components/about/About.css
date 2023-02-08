@@ -41,20 +41,23 @@ h2 {
   align-items: center;
 }
 .article-a {
-  max-width: 10rem;
-  min-width: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 10rem;
-  border: 1px solid transparent;
+  height: 6rem;
   border-radius: 1rem;
   text-align: center;
   margin: 2rem;
-
-  height: 6rem;
   color: #020c1b;
   background-color: #bc6b05;
   overflow: hidden;
   font-size: 16px;
   cursor: pointer;
+}
+.article-a h5 {
+  font-size: 2rem;
 }
 
 .article-a small {

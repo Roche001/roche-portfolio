@@ -16,9 +16,11 @@ const About = () => {
         </div>
         <div className="text col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
           <article className="article-a ">
-            <BsFillFolderSymlinkFill className="icon" />
+            <h5>
+              <BsFillFolderSymlinkFill />
+            </h5>
+
             <h4>Projects</h4>
-            <small>5+ Projects</small>
           </article>
           <div className="decription">
             <p>
