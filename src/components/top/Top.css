@@ -9,13 +9,20 @@
   z-index: 1000;
   box-shadow: 0px 2px #060604;
 }
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .logo a {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 5rem;
+  height: 4rem;
 }
 .logo img {
+  border: 1px dotted #bc6b05;
+  border-radius: 50%;
   height: 100%;
   width: 100%;
 }
