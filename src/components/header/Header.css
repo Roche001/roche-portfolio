@@ -45,3 +45,9 @@ header {
 .more h4 {
   color: #ffffff;
 }
+@media screen and (max-width: 600px) {
+  .more {
+    bottom: 4rem;
+    margin-left: -1rem;
+  }
+}

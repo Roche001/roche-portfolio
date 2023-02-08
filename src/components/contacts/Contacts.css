@@ -33,22 +33,23 @@
 .contact-option {
   background: #bc6b05;
   width: 20rem;
-  border: #f2b76e 1px solid;
+  border: #bc6b05 1px solid;
   border-radius: 1.2rem;
   text-align: center;
   border: 1px solid transparent;
   overflow: hidden;
-  transition: var(--transition);
+  transition: 400ms ease-in-out;
+  cursor: pointer;
 }
 .contact-option a {
-  color: #020c1b;
+  color: #ffffff;
   margin-bottom: 1rem;
   font-size: 1rem;
 }
 
 .contact-option:hover {
   background: transparent;
-  border: #5d07e9 3px solid;
+  border: #bc6b05 3px solid;
   color: #d6f5fa;
   transition: transition;
 }
