@@ -28,7 +28,7 @@ h2 {
 
 .color img:hover {
   filter: grayscale(0%);
-  filter: gray;
+  filter: #060604;
   -webkit-filter: grayscale(0%);
   filter: none;
   transition: 1s ease;
