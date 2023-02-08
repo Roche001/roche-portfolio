@@ -5,9 +5,9 @@
   align-items: flex-start;
   width: 100vw;
   position: fixed;
-  background: #070707;
+  background: #060604;
   z-index: 1000;
-  box-shadow: 0px 2px #070707;
+  box-shadow: 0px 2px #060604;
 }
 .logo a {
   display: flex;
@@ -66,14 +66,14 @@
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
-    background: #070707;
+    background: #060604;
   }
   .nav-elements {
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
     height: 30vh;
-    background: #070707;
+    background: #060604;
     width: 100vw;
     display: none;
   }
@@ -92,7 +92,7 @@
     justify-content: space-between;
     flex-direction: column;
     height: 30vh;
-    background: #070707;
+    background: #060604;
     width: 100vw;
   }
 }
