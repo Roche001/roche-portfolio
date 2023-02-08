@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import { BsFillFolderSymlinkFill } from "react-icons/bs";
-import { BsArrowRight } from "react-icons/bs";
+import { GiArrowDunk } from "react-icons/gi";
 
 const About = () => {
   return (
@@ -36,7 +36,10 @@ const About = () => {
           </div>
           <div className="col-md-6">
             <a href="#Portfolio" className="btn">
-              View My Projects <BsArrowRight />
+              View My Projects{" "}
+              <span>
+                <GiArrowDunk />
+              </span>
             </a>
           </div>
         </div>
