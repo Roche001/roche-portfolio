@@ -14,6 +14,9 @@
   align-items: center;
   justify-content: center;
 }
+.logo img:hover {
+  background: #bc6b05;
+}
 .logo a {
   display: flex;
   align-items: center;
