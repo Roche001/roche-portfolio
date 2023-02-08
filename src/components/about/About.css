@@ -12,12 +12,12 @@ h2 {
 .box {
   overflow: hidden;
   border: solid 2px #bc6b05;
-  border-radius: 4rem 0rem;
+  border-radius: 0.5rem;
   cursor: pointer;
+  padding: 0.4rem;
 }
 .box img {
-  border-radius: 4rem 0rem;
-  padding: 0.2rem;
+  border-radius: 0.5rem;
 }
 .text {
   display: flex;
