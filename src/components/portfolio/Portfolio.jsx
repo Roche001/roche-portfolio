@@ -151,7 +151,7 @@ function portfolio() {
               {" "}
               <img
                 className="d-block w-100"
-                src="./assets/index1.png"
+                src="./assets/peak.png"
                 alt="Rhino Hill"
               />
             </a>
