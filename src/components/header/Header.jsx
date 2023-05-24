@@ -14,7 +14,7 @@ const Header = () => {
       <header className="main container-fluid">
         {" "}
         <div className="header_container">
-          <h4 data-aos="fade-right">Hello, I am </h4>
+          <h3 data-aos="fade-right">Hello, I am </h3>
           <h1 data-aos="fade-left">Roche Harold</h1>
           <h3 data-aos="fade-right">I am a Front-End Developer</h3>
           <Jr />
