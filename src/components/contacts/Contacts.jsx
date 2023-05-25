@@ -37,8 +37,10 @@ const Contacts = () => {
       <div className="contact container">
         <div className="contact-options">
           <div className="contact-option">
-            <MdMail />
-            <h4>Email</h4>
+            <h3>
+              <MdMail />
+            </h3>
+            <h4>Mail</h4>
             <h5>rocheharold13@gmail.com</h5>
             <a href="mailto:rocheharold13@gmail.com" target="blank">
               Send a Message
@@ -46,7 +48,9 @@ const Contacts = () => {
           </div>
 
           <div className="contact-option ">
-            <BsMessenger />
+            <h3>
+              <BsMessenger />
+            </h3>
             <h4>Messenger</h4>
             <h5>Roche Harold</h5>
             <a href="https:m.me/profile.php?id=100006045915802" target="blank">
@@ -56,15 +60,11 @@ const Contacts = () => {
           </div>
 
           <div className="contact-option">
-            <BsWhatsapp />
+            <h3>
+              <BsWhatsapp />
+            </h3>
             <h4>WhatsApp</h4>
-            <a
-              href="https://wa.me/254711229823?text=Hello%2C%20thanks%20for%20contacting%20Roche%20Harold"
-              target="blank"
-            >
-              Send a Message
-            </a>
-            <br />
+
             <a
               href="https://wa.me/254718485502?text=Hello%2C%20thanks%20for%20contacting%20Roche%20Harold"
               target="blank"
