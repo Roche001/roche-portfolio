@@ -14,9 +14,9 @@ const Header = () => {
       <header className="main container-fluid">
         {" "}
         <div className="header_container">
-          <h3 data-aos="fade-right">Hello, I'm </h3>
-          <h1 data-aos="fade-left">Roche Harold</h1>
-          <h3 data-aos="fade-right">I am a Front-End Developer</h3>
+          <h3 data-aos="fade-right">Hello, my name is </h3>
+          <h1 data-aos="fade-left">Roche Harold.</h1>
+          <h3 data-aos="fade-right">I am a Front-End Developer.</h3>
           <Jr />
           <a href="#About">
             <div className="more">
