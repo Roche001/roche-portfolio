@@ -24,14 +24,17 @@ const About = () => {
           </article>
           <div className="decription">
             <p>
-              I am a Frontend web developer specialized in building responsive
-              websites using technologies such as HTML,CSS, Bootstrap,
-              JavaScript and Reactjs. I have the skills and knowledge needed to
-              build web applications with clean and intuitive user interfaces
-              your customers will love. I am also a team player who can work
-              with a cross functional team and work directly with designers and
-              product managers to create a seamless and interactive experience
-              that will make real time data collection fun and easy.
+              I'm an experienced front-end developer with 1+ years of
+              professional experience. My passion is creating user-friendly
+              websites using HTML, CSS, and Javascript. I have a keen eye for
+              design and I aim to build visually stunning websites that go above
+              and beyond customer expectations. I stay updated with the latest
+              industry trends and best practices to ensure my technical skills
+              are top-notch. I'm confident in my ability to contribute to
+              dynamic development projects and work well with diverse teams. I'm
+              ready to utilize my expertise to provide effective solutions and
+              help businesses thrive online, focusing on writing clean,
+              efficient, and responsive code.
             </p>
           </div>
           <div className="col-md-6">

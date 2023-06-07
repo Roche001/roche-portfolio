@@ -1,6 +1,6 @@
 import React from "react";
 import "./Jr.css";
-import Harold from "../../assets/rocheharold.pdf";
+import Harold from "../../assets/rocheharold-1.pdf";
 
 function Jr() {
   return (
