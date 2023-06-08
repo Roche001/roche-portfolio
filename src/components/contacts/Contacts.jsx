@@ -3,7 +3,7 @@ import "./Contacts.css";
 import { useRef } from "react";
 import emailjs from "emailjs-com";
 import { MdMail } from "react-icons/md";
-import { BsMessenger } from "react-icons/bs";
+import { AiFillPhone } from "react-icons/ai";
 import { BsWhatsapp } from "react-icons/bs";
 
 const Contacts = () => {
@@ -40,8 +40,8 @@ const Contacts = () => {
             <h3>
               <MdMail />
             </h3>
-            <h4>Mail</h4>
-            <h5>rocheharold13@gmail.com</h5>
+            <h3>Mail</h3>
+            <h6>rocheharold13@gmail.com</h6>
             <a href="mailto:rocheharold13@gmail.com" target="blank">
               Send a Message
             </a>
@@ -49,24 +49,19 @@ const Contacts = () => {
 
           <div className="contact-option ">
             <h3>
-              <BsMessenger />
+              <AiFillPhone />
             </h3>
-            <h4>Messenger</h4>
-            <h5>Roche Harold</h5>
-            <a href="https:m.me/profile.php?id=100006045915802" target="blank">
-              {" "}
-              Send a Message
-            </a>
+            <h6> +254723703121</h6>
           </div>
 
           <div className="contact-option">
             <h3>
               <BsWhatsapp />
             </h3>
-            <h4>WhatsApp</h4>
+            <h3>WhatsApp</h3>
 
             <a
-              href="https://wa.me/254718485502?text=Hello%2C%20thanks%20for%20contacting%20Roche%20Harold"
+              href="https://wa.me/254723703121?text=Hello%2C%20thanks%20for%20contacting%20Roche%20Harold"
               target="blank"
             >
               Send a Message
