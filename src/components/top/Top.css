@@ -15,7 +15,7 @@
   justify-content: center;
 }
 .logo img:hover {
-  background: #bc6b05;
+  background: #d0a680;
 }
 .logo a {
   display: flex;
@@ -24,7 +24,7 @@
   height: 4rem;
 }
 .logo img {
-  border: 1px dotted #bc6b05;
+  border: 1px dotted #d0a680;
   border-radius: 50%;
   height: 100%;
   width: 100%;
@@ -45,14 +45,14 @@
   transition: 400ms ease-in-out;
 }
 .menu-one h6:hover {
-  color: #bc6b05;
+  color: #d0a680;
 }
 .menu-one a {
   color: #ffffff;
   text-decoration: none;
 }
 .menu-one a:hover {
-  color: #bc6b05;
+  color: #d0a680;
 }
 .top-icon {
   display: none;

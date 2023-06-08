@@ -11,7 +11,7 @@ h2 {
 }
 .box {
   overflow: hidden;
-  border: solid 2px #bc6b05;
+  border: solid 2px #d0a680;
   border-radius: 0.8rem;
   cursor: pointer;
   padding: 0.4rem;
@@ -51,7 +51,7 @@ h2 {
   text-align: center;
   margin: 2rem;
   color: #020c1b;
-  background-color: #bc6b05;
+  background-color: #d0a680;
   overflow: hidden;
   font-size: 16px;
   cursor: pointer;

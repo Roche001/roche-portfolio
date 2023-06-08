@@ -59,7 +59,7 @@ section {
   margin-bottom: 2rem;
 }
 a {
-  color: #bc6b05;
+  color: #d0a680;
   transition: var(--transition);
 }
 a:hover {
@@ -78,12 +78,12 @@ a:hover {
 
   border-radius: 0.5rem;
   cursor: pointer;
-  border: 1px solid #f2b76e;
+  border: 1px solid #d0a680;
   transition: 600ms ease-in-out;
   font-weight: 700;
 }
 .btn:hover {
-  background-color: #bc6b05;
+  background-color: #d0a680;
   color: #020c1b;
   border: #ffffff solid 1px;
 }

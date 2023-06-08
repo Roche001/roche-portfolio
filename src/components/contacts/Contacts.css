@@ -31,9 +31,9 @@
   font-size: 0.9rem;
 }
 .contact-option {
-  background: #bc6b05;
+  background: url(../../assets/brown\ .jpeg);
   width: 20rem;
-  border: #bc6b05 1px solid;
+  border: #d0a680 1px solid;
   border-radius: 1.2rem;
   text-align: center;
   border: 1px solid transparent;
@@ -49,7 +49,7 @@
 
 .contact-option:hover {
   background: transparent;
-  border: #bc6b05 3px solid;
+  border: #d0a680 3px solid;
   color: #d6f5fa;
   transition: transition;
 }
@@ -73,7 +73,7 @@ form {
   height: 3rem;
   background: transparent;
   color: #d6f5fa;
-  border-color: #bc6b05;
+  border-color: #d0a680;
   margin-top: 20px;
   cursor: pointer;
 }
@@ -85,7 +85,7 @@ textarea {
   border-radius: 0.5rem;
   background-color: transparent;
   color: #d6f5fa;
-  border: 2px solid #bc6b05;
+  border: 2px solid #d0a680;
 }
 .row {
   display: flex;
