@@ -34,12 +34,6 @@ h2 {
   transition: 1s ease;
 }
 
-.text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
 .article-a {
   display: flex;
   flex-direction: column;
@@ -47,9 +41,8 @@ h2 {
   justify-content: center;
   width: 10rem;
   height: 6rem;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
   text-align: center;
-  margin: 2rem;
   color: #020c1b;
   background-color: #d0a680;
   overflow: hidden;
@@ -57,12 +50,13 @@ h2 {
   cursor: pointer;
 }
 .article-a h5 {
-  font-size: 2rem;
+  font-size: 1.5rem;
+}
+.article-a h4 {
+  font-size: 1.5rem;
+  font-weight: 550;
 }
 
-.article-a small {
-  font-weight: 700;
-}
 .article-a:hover {
   background: transparent;
   border: #5d07e9 3px solid;
@@ -77,6 +71,8 @@ h2 {
 .decription p {
   font-size: 1rem;
   font-weight: 500;
+  text-align: start;
+  margin-top: 0.5rem;
 }
 .btn span {
   margin: 0.5rem;
