@@ -22,8 +22,8 @@ html {
   --container-width-sn: 98%;
 }
 body {
-  background-image: linear-gradient(
-      to bottom,
+  background-image: radial-gradient(
+      ellipse at center,
       rgba(0, 0, 0, 0.6),
       rgba(0, 0, 0, 0.3)
     ),
@@ -36,10 +36,9 @@ body {
   background-position: center;
   color: #d6f5fa;
   font-family: "Asap", sans-serif;
-  line-height: 1.7;
+  line-height: 1.5;
   flex-wrap: wrap;
   overflow-x: hidden;
-  scroll-behavior: smooth;
 }
 
 h1 h2 h3 h4 {
