@@ -20,7 +20,7 @@ function Footer() {
           </h5>
           <h6>
             <a
-              href="https://www.linkedin.com/in/roche-harold-3b3aba141/"
+              href="https://www.linkedin.com/in/roche-harold/"
               target="_blank"
               rel="noopener noreferrer"
             >
