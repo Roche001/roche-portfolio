@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Yantramanav&display=swap");
 .navbar {
   display: flex;
   justify-content: space-around;
@@ -40,8 +40,9 @@
 }
 .menu-one h6 {
   font-weight: 400;
-  font-size: 1.25rem;
+  /* font-size: 1.25rem; */
   font-family: "Lobster", cursive;
+  font-family: "Yantramanav", sans-serif;
   transition: 400ms ease-in-out;
 }
 .menu-one h6:hover {

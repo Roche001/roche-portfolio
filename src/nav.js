@@ -1,9 +1,9 @@
 export const bar = [
-  { name: "Home", link: "#Header" },
-  { name: "About", link: "#About" },
-  { name: "Skills", link: "#Experience" },
-  { name: "Portfolio", link: "#Portfolio" },
-  { name: "Contacts", link: "#Contacts" },
+  { name: "home", link: "#Header" },
+  { name: "about", link: "#About" },
+  { name: "skills", link: "#Experience" },
+  { name: "portfolio", link: "#Portfolio" },
+  { name: "contacts", link: "#Contacts" },
 ];
 export const card = [
   { imgUrl: "./assets/icon1.png", title: "HTML" },
