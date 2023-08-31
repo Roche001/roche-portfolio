@@ -36,12 +36,10 @@
 }
 .menu-one {
   padding-left: 0.8rem;
-  cursor: progress;
 }
 .menu-one h6 {
   font-weight: 400;
-  /* font-size: 1.25rem; */
-  font-family: "Lobster", cursive;
+
   font-family: "Yantramanav", sans-serif;
   transition: 400ms ease-in-out;
 }
