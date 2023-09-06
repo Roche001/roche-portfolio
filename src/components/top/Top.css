@@ -39,7 +39,7 @@
 }
 .menu-one h6 {
   font-weight: 400;
-
+  color: #d6f5fa;
   font-family: "Yantramanav", sans-serif;
   transition: 400ms ease-in-out;
 }
@@ -81,7 +81,6 @@
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
-    height: 30vh;
     background: #060604;
     width: 100vw;
     display: none;
@@ -100,8 +99,12 @@
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
-    height: 30vh;
     background: #060604;
     width: 100vw;
+    height: 20vh;
+    overflow-y: hidden;
+  }
+  .menu-one h6 {
+    overflow-y: hidden;
   }
 }
